@@ -1,0 +1,210 @@
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:20:24 Server is starting...
+10:20:24 Server failed to start error:The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:21:38 Server is starting...
+10:21:39 Start checking table schema, please wait.
+10:21:39 Check table schema successfully.
+10:21:39 script compiled successfully.
+10:21:39 CacheFactory listen has started...
+10:21:40 Socket service 60.212.181.95:9001 is started.
+10:21:40 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+10:23:06 csharp script compile start...
+10:23:06 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:23:24 Server is starting...
+10:23:25 Start checking table schema, please wait.
+10:23:25 Check table schema successfully.
+10:23:25 script compiled successfully.
+10:23:25 CacheFactory listen has started...
+10:23:26 Socket service 60.212.181.95:9001 is started.
+10:23:26 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:31:20 Server is starting...
+10:31:21 Start checking table schema, please wait.
+10:31:21 Check table schema successfully.
+10:31:21 script compiled successfully.
+10:31:21 CacheFactory listen has started...
+10:31:21 Socket service 60.212.181.95:9001 is started.
+10:31:21 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:35:11 Server is starting...
+10:35:12 Start checking table schema, please wait.
+10:35:12 Check table schema successfully.
+10:35:12 script compiled successfully.
+10:35:12 CacheFactory listen has started...
+10:35:13 Socket service 60.212.181.95:9001 is started.
+10:35:13 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:36:16 Server is starting...
+10:36:17 Start checking table schema, please wait.
+10:36:17 Check table schema successfully.
+10:36:17 script compiled successfully.
+10:36:17 CacheFactory listen has started...
+10:36:18 Socket service 60.212.181.95:9001 is started.
+10:36:18 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:39:32 Server is starting...
+10:39:34 Start checking table schema, please wait.
+10:39:34 Check table schema successfully.
+10:39:34 script compiled successfully.
+10:39:34 CacheFactory listen has started...
+10:39:34 Socket service 60.212.181.95:9001 is started.
+10:39:34 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:39:38 Server is starting...
+10:39:39 Start checking table schema, please wait.
+10:39:39 Check table schema successfully.
+10:39:39 script compiled successfully.
+10:39:39 CacheFactory listen has started...
+10:39:39 Socket service 60.212.181.95:9001 is started.
+10:39:39 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:47:34 Server is starting...
+10:47:36 Start checking table schema, please wait.
+10:47:36 Check table schema successfully.
+10:47:36 script compiled successfully.
+10:47:36 CacheFactory listen has started...
+10:47:36 Socket service 60.212.181.95:9001 is started.
+10:47:36 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:48:30 Server is starting...
+10:48:32 Start checking table schema, please wait.
+10:48:32 Check table schema successfully.
+10:48:32 script compiled successfully.
+10:48:32 CacheFactory listen has started...
+10:48:32 Socket service 60.212.181.95:9001 is started.
+10:48:32 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:55:58 Server is starting...
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:56:01 Server is starting...
+10:56:03 Start checking table schema, please wait.
+10:56:03 Check table schema successfully.
+10:56:03 script compiled successfully.
+10:56:03 CacheFactory listen has started...
+10:56:03 Socket service 60.212.181.95:9001 is started.
+10:56:03 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+10:57:14 Server is starting...
+10:57:16 Start checking table schema, please wait.
+10:57:16 Check table schema successfully.
+10:57:16 script compiled successfully.
+10:57:17 CacheFactory listen has started...
+10:57:17 Socket service 60.212.181.95:9001 is started.
+10:57:17 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

@@ -1,0 +1,51 @@
+Time:2016-11-12 11:15:05:969-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 11:31:56:544-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 11:32:56:510-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 11:34:14:953-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 11:35:45:346-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs, Line:62
+Message:无法将类型“System.Collections.Generic.IEnumerable<ZyGames.Framework.Game.Contract.GameSession>”隐式转换为“System.Collections.Generic.List<ZyGames.Framework.Game.Contract.GameSession>”。存在一个显式转换(是否缺少强制转换?)
+
+
+Time:2016-11-12 11:35:45:355-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-12 11:36:38:518-Trace>>Action2001 error:System.InvalidCastException: 无法将类型为“System.Collections.ObjectModel.ReadOnlyCollection`1[ZyGames.Framework.Game.Contract.GameSession]”的对象强制转换为类型“System.Collections.Generic.List`1[ZyGames.Framework.Game.Contract.GameSession]”。
+   在 GameServer.CsScript.Action.Action2001.RadioSession(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 60
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 51
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d2%26sign%3da120ae6ed7173a02a5ce4f4070e53155, Uid:0, Pid:
+Host:127.0.0.1:62819
+
+
+Time:2016-11-12 11:40:49:587-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 11:41:49:542-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 11:46:21:746-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 11:48:47:955-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+

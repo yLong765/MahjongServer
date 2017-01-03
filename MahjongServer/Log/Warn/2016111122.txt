@@ -1,0 +1,21 @@
+Time:2016-11-11 22:00:01:546-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-11 22:00:59:786-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-11 22:03:21:200-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-11 22:08:37:277-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-11 22:11:50:460-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-11 22:17:18:358-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-11 22:23:35:936-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+

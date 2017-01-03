@@ -1,0 +1,28 @@
+Time:2016-11-08 19:11:08:302-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4
+error:MahjongServer.Script.CsScript.Room.RoomCache_4
+
+
+Time:2016-11-08 19:16:23:347-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_7
+error:MahjongServer.Script.CsScript.Room.RoomCache_7
+
+
+Time:2016-11-08 19:17:23:290-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_7
+error:MahjongServer.Script.CsScript.Room.RoomCache_7
+
+
+Time:2016-11-08 19:18:23:299-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_7
+error:MahjongServer.Script.CsScript.Room.RoomCache_7
+
+
+Time:2016-11-08 19:55:10:587-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4
+error:MahjongServer.Script.CsScript.Room.RoomCache_4
+
+
+Time:2016-11-08 19:56:10:550-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-08 19:58:42:326-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4,MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_3,MahjongServer.Script.CsScript.Room.RoomCache_456
+error:MahjongServer.Script.CsScript.Room.RoomCache_4,MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_3,MahjongServer.Script.CsScript.Room.RoomCache_456
+
+

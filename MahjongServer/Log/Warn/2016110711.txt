@@ -1,0 +1,33 @@
+Time:2016-11-07 11:03:04:582-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-07 11:06:27:900-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-07 11:07:23:259-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-07 11:07:23:350-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-07 11:07:23:857-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\temp error:System.UnauthorizedAccessException: 对路径“bszdrfsq.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-07 11:07:48:906-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-07 11:08:03:551-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-07 11:12:21:780-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-07 11:15:59:509-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+

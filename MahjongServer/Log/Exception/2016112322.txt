@@ -1,0 +1,114 @@
+Time:2016-11-23 22:09:19:961-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 22:11:26:212-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 22:12:26:159-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 22:15:20:765-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:19
+Message:应输入 ;
+
+
+Time:2016-11-23 22:15:20:774-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 22:15:25:784-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:19
+Message:应输入 ;
+
+
+Time:2016-11-23 22:15:25:787-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 22:15:44:372-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 22:16:44:333-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-23 22:17:44:347-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2016-11-23 22:19:44:360-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4
+error:MahjongServer.Script.CsScript.Room.RoomCache_4
+
+
+Time:2016-11-23 22:22:27:967-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_5
+error:MahjongServer.Script.CsScript.Room.RoomCache_5
+
+
+Time:2016-11-23 22:23:27:925-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-23 22:25:27:940-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2016-11-23 22:27:27:942-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4
+error:MahjongServer.Script.CsScript.Room.RoomCache_4
+
+
+Time:2016-11-23 22:29:27:954-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_5
+error:MahjongServer.Script.CsScript.Room.RoomCache_5
+
+
+Time:2016-11-23 22:30:27:957-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_6
+error:MahjongServer.Script.CsScript.Room.RoomCache_6
+
+
+Time:2016-11-23 22:33:27:974-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_7
+error:MahjongServer.Script.CsScript.Room.RoomCache_7
+
+
+Time:2016-11-23 22:34:27:986-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_8
+error:MahjongServer.Script.CsScript.Room.RoomCache_8
+
+
+Time:2016-11-23 22:40:28:040-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_9,MahjongServer.Script.CsScript.Room.RoomCache_10
+error:MahjongServer.Script.CsScript.Room.RoomCache_9,MahjongServer.Script.CsScript.Room.RoomCache_10
+
+
+Time:2016-11-23 22:42:28:066-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_11
+error:MahjongServer.Script.CsScript.Room.RoomCache_11
+
+
+Time:2016-11-23 22:44:28:080-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_12
+error:MahjongServer.Script.CsScript.Room.RoomCache_12
+
+
+Time:2016-11-23 22:45:28:081-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_13
+error:MahjongServer.Script.CsScript.Room.RoomCache_13
+
+
+Time:2016-11-23 22:48:28:096-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_14
+error:MahjongServer.Script.CsScript.Room.RoomCache_14
+
+
+Time:2016-11-23 22:49:28:103-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_15
+error:MahjongServer.Script.CsScript.Room.RoomCache_15
+
+
+Time:2016-11-23 22:57:28:150-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_16
+error:MahjongServer.Script.CsScript.Room.RoomCache_16
+
+
+Time:2016-11-23 22:58:28:158-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_17
+error:MahjongServer.Script.CsScript.Room.RoomCache_17
+
+

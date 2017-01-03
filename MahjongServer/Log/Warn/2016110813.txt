@@ -1,0 +1,69 @@
+Time:2016-11-08 13:27:26:423-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:28:44:724-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:28:44:762-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-08 13:28:45:071-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\temp error:System.UnauthorizedAccessException: 对路径“s31okloj.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-08 13:28:53:285-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:35:50:971-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:36:57:456-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:40:39:957-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:41:49:608-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:42:55:912-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:44:16:030-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:44:21:149-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:46:01:360-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:46:43:898-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:49:09:600-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:49:41:039-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:49:45:959-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:52:18:618-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:57:41:828-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 13:57:47:135-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2016-11-08 13:57:47:876-Trace>>OnEntitySyncQueue execute count:1, success:1/total 2, fail:0 start...
+
+

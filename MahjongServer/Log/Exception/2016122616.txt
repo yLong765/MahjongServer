@@ -1,0 +1,7 @@
+Time:2016-12-26 16:33:25:439-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-12-26 16:34:12:562-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+

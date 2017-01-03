@@ -1,0 +1,40 @@
+Time:2016-11-28 12:04:45:867-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-28 12:12:16:238-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-28 12:12:29:455-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-11-28 12:36:46:102-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-11-28 12:36:52:655-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-11-28 12:36:55:794-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-28 12:38:30:062-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-11-28 12:38:36:293-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-11-28 12:38:52:702-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-11-28 12:38:56:202-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-28 12:39:04:071-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2016-11-28 12:39:08:232-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+

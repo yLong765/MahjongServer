@@ -1,0 +1,48 @@
+Time:2016-11-08 14:14:33:804-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 14:15:20:656-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 14:15:38:014-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2016-11-08 14:25:53:040-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 14:25:53:077-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-08 14:34:59:750-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 14:35:09:357-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2016-11-08 14:36:40:953-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 14:36:49:386-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2016-11-08 14:36:51:582-Trace>>OnEntitySyncQueue execute count:1, success:1/total 2, fail:0 start...
+
+
+Time:2016-11-08 14:38:58:065-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 14:40:56:508-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-08 14:41:03:854-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2016-11-08 14:41:04:844-Trace>>OnEntitySyncQueue execute count:1, success:1/total 2, fail:0 start...
+
+
+Time:2016-11-08 14:41:28:070-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+

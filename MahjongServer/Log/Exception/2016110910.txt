@@ -1,0 +1,22 @@
+Time:2016-11-09 10:58:24:800-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4
+error:MahjongServer.Script.CsScript.Room.RoomCache_4
+
+
+Time:2016-11-09 10:59:53:737-Trace>>Action request GameServer.CsScript.Action.Action2000,GameServer.CsScript error:System.ArgumentOutOfRangeException: obj is not a valid data can be serialized. ---> System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 ProtoBuf.NetObjectCache.SetKeyedObject(Int32 key, Object value)
+   在 ProtoBuf.ProtoWriter.SetRootObject(Object value)
+   在 ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value, SerializationContext context)
+   在 ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value)
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.SerializeAutoGZip(Object obj, Boolean autoUseGzip)
+   在 ZyGames.Framework.Game.Service.DataStruct.PushIntoStack(Object obj, Boolean useGzip)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Game.Service.DataStruct.PushIntoStack(Object obj, Boolean useGzip)
+   在 GameServer.CsScript.Action.Action2000.BuildPacket() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 23
+   在 ZyGames.Framework.Game.Service.GameStruct.WriteResponse(BaseGameResponse response)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Process(BaseStruct baseStruct, ActionGetter actionGetter, BaseGameResponse response)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Request(String typeName, ActionGetter actionGetter, BaseGameResponse response)
+param:Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d4%26roomOperation%3d1%26sign%3d9290efdce24cd3bdafa16acbaa8fc39e, Uid:0, Pid:
+Host:127.0.0.1:53485
+
+

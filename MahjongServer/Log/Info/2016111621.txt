@@ -1,0 +1,18 @@
+21:09:00 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+21:10:48 Server is starting...
+21:10:49 Start checking table schema, please wait.
+21:10:49 Check table schema successfully.
+21:10:49 script compiled successfully.
+21:10:49 CacheFactory listen has started...
+21:10:50 Socket service 39.80.175.133:9001 is started.
+21:10:50 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

@@ -1,0 +1,168 @@
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:14:33 Server is starting...
+14:14:35 Start checking table schema, please wait.
+14:14:35 Check table schema successfully.
+14:14:35 script compiled successfully.
+14:14:35 CacheFactory listen has started...
+14:14:35 Socket service 39.80.174.224:9001 is started.
+14:14:35 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:15:20 Server is starting...
+14:15:21 Start checking table schema, please wait.
+14:15:21 Check table schema successfully.
+14:15:21 script compiled successfully.
+14:15:21 CacheFactory listen has started...
+14:15:22 Socket service 39.80.174.224:9001 is started.
+14:15:22 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+14:22:54 csharp script compile start...
+14:22:54 csharp script compiled successfully.
+Update script file count:1.
+14:22:58 csharp script compile start...
+14:22:58 csharp script compiled successfully.
+Update script file count:1.
+14:23:19 csharp script compile start...
+14:23:20 csharp script compiled successfully.
+Update script file count:1.
+14:23:25 csharp script compile start...
+14:23:25 csharp script compiled successfully.
+Update script file count:1.
+14:23:42 csharp script compile start...
+14:23:42 csharp script compiled successfully.
+Update script file count:1.
+14:24:00 csharp script compile start...
+14:24:00 csharp script compiled successfully.
+14:25:40 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:25:52 Server is starting...
+Update script file count:1.
+14:34:48 csharp script compile start...
+14:34:48 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:34:59 Server is starting...
+14:35:01 Start checking table schema, please wait.
+14:35:01 Check table schema successfully.
+14:35:01 script compiled successfully.
+14:35:01 CacheFactory listen has started...
+14:35:01 Socket service 39.80.174.224:9001 is started.
+14:35:01 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+14:36:24 csharp script compile start...
+14:36:24 csharp script compiled successfully.
+Update script file count:1.
+14:36:32 csharp script compile start...
+14:36:32 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:36:40 Server is starting...
+14:36:42 Start checking table schema, please wait.
+14:36:42 Check table schema successfully.
+14:36:42 script compiled successfully.
+14:36:42 CacheFactory listen has started...
+14:36:42 Socket service 39.80.174.224:9001 is started.
+14:36:42 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+14:37:16 csharp script compile start...
+14:37:16 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:38:57 Server is starting...
+14:38:59 Start checking table schema, please wait.
+14:38:59 Check table schema successfully.
+14:38:59 script compiled successfully.
+14:38:59 CacheFactory listen has started...
+14:38:59 Socket service 39.80.174.224:9001 is started.
+14:38:59 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+14:40:04 csharp script compile start...
+14:40:04 csharp script compiled successfully.
+Update script file count:1.
+14:40:10 csharp script compile start...
+14:40:10 csharp script compiled successfully.
+Update script file count:1.
+14:40:16 csharp script compile start...
+14:40:16 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:40:56 Server is starting...
+14:40:57 Start checking table schema, please wait.
+14:40:57 Check table schema successfully.
+14:40:57 script compiled successfully.
+14:40:57 CacheFactory listen has started...
+14:40:58 Socket service 39.80.174.224:9001 is started.
+14:40:58 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+14:41:27 Server is starting...
+14:41:29 Start checking table schema, please wait.
+14:41:29 Check table schema successfully.
+14:41:29 script compiled successfully.
+14:41:29 CacheFactory listen has started...
+14:41:29 Socket service 39.80.174.224:9001 is started.
+14:41:29 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

@@ -1,0 +1,15 @@
+Time:2016-11-18 16:58:11:067-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-18 16:58:27:932-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2016-11-18 16:58:42:037-Trace>>OnEntitySyncQueue execute count:1, success:1/total 2, fail:0 start...
+
+
+Time:2016-11-18 16:58:45:207-Trace>>OnEntitySyncQueue execute count:1, success:2/total 3, fail:0 start...
+
+
+Time:2016-11-18 16:58:47:067-Trace>>OnEntitySyncQueue execute count:1, success:3/total 4, fail:0 start...
+
+

@@ -1,0 +1,17 @@
+Time:2016-11-10 22:18:03:087-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_5
+error:MahjongServer.Script.CsScript.Room.RoomCache_5
+
+
+Time:2016-11-10 22:18:32:757-Trace>>Action request GameServer.CsScript.Action.Action2001,GameServer.CsScript error:System.NotSupportedException: Not found script action2001, please check script path setting.
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Request(String typeName, ActionGetter actionGetter, BaseGameResponse response)
+param:Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d5%26BrandOperation%3d2%26sign%3d867ccfdf68a6b30c94271d3efb717770, Uid:0, Pid:
+Host:127.0.0.1:61305
+
+
+Time:2016-11-10 22:19:52:129-Trace>>SendToClient action:2002 userId:0 error:System.NotSupportedException: Not found script action2002, please check script path setting.
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.ProcessActionResponse(IActionDispatcher actionDispatcher, Int32 actionId, ActionGetter actionGetter)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.<SendAction>d__69.MoveNext()
+
+

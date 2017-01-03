@@ -1,0 +1,144 @@
+Time:2016-11-23 21:29:08:343-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 21:30:08:330-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-23 21:31:08:334-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2016-11-23 21:32:08:332-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4
+error:MahjongServer.Script.CsScript.Room.RoomCache_4
+
+
+Time:2016-11-23 21:34:40:116-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:22
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:34:40:128-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:35:26:490-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:23
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:35:26:494-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:35:42:411-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:23
+Message:当前上下文中不存在名称“id”
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:24
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:35:42:415-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:37:34:415-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:25
+Message:当前上下文中不存在名称“id”
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:26
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:37:34:419-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:37:36:893-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:26
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:37:36:897-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:37:43:478-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:26
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:37:43:481-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:37:47:131-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:26
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:37:47:134-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:37:49:326-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs, Line:26
+Message:“PushIntoStack”方法没有任何重载采用 0 个参数
+
+
+Time:2016-11-23 21:37:49:331-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-23 21:50:20:457-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 21:51:34:335-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 21:52:43:223-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 21:54:28:102-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-23 21:55:28:053-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+

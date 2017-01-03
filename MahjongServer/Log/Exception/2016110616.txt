@@ -1,0 +1,39 @@
+Time:2016-11-06 16:43:39:901-Trace>>OnInit error:System.Exception: The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass6.<InitRedisInfo>b__3(RedisClient cli)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(RedisClient client, String[] watchKeys, Func`1 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass13.<ProcessTrans>b__11(RedisClient client)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.Process(Action`1 func, RedisPoolSetting setting)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(String[] watchKeys, Func`2 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.InitRedisInfo()
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting)
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart()
+
+
+Time:2016-11-06 16:55:08:514-Trace>>Action request GameServer.CsScript.Action.Action2000,GameServer.CsScript error:System.ArgumentNullException: 值不能为 null。
+参数名: constructor
+   在 System.Linq.Expressions.Expression.New(ConstructorInfo constructor, IEnumerable`1 arguments)
+   在 ZyGames.Framework.Common.Reflect.FastActivator.BuildDeletgateObj(Type type, Type[] typeList)
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args)
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result)
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindScriptRoute(ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Request(String typeName, ActionGetter actionGetter, BaseGameResponse response)
+param:Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26sign%3df6d01bccb8390fdf80218357029aae07, Uid:0, Pid:
+Host:127.0.0.1:57152
+
+
+Time:2016-11-06 16:57:17:826-Trace>>Action request GameServer.CsScript.Action.Action2000,GameServer.CsScript error:System.ArgumentNullException: 值不能为 null。
+参数名: constructor
+   在 System.Linq.Expressions.Expression.New(ConstructorInfo constructor, IEnumerable`1 arguments)
+   在 ZyGames.Framework.Common.Reflect.FastActivator.BuildDeletgateObj(Type type, Type[] typeList)
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args)
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result)
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindScriptRoute(ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Request(String typeName, ActionGetter actionGetter, BaseGameResponse response)
+param:Url:?d=MsgId%3d3%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26sign%3dd6785e4c5be1401244b419b9afbfeb75, Uid:0, Pid:
+Host:127.0.0.1:57359
+
+

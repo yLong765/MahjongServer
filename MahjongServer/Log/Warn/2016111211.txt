@@ -1,0 +1,66 @@
+Time:2016-11-12 11:14:04:410-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:14:04:443-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-12 11:14:04:729-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\temp error:System.UnauthorizedAccessException: 对路径“0rax1kba.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-12 11:15:09:113-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:15:09:154-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-12 11:15:09:381-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\temp error:System.UnauthorizedAccessException: 对路径“0kxxsnnz.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-12 11:31:55:077-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:33:13:518-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:36:27:234-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:36:27:262-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-12 11:36:27:548-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\temp error:System.UnauthorizedAccessException: 对路径“b10wta3c.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2016-11-12 11:40:48:108-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:45:20:338-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:47:40:167-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:48:46:213-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2016-11-12 11:49:06:683-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+

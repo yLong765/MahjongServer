@@ -1,0 +1,146 @@
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:19:20 Server is starting...
+20:19:21 Server failed to start error:The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:20:01 Server is starting...
+20:20:03 Start checking table schema, please wait.
+20:20:03 Check table schema successfully.
+20:20:03 script compiled successfully.
+20:20:03 CacheFactory listen has started...
+20:20:03 Socket service 192.168.1.104:9001 is started.
+20:20:03 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+20:21:33 csharp script compile start...
+Update script file count:1.
+20:21:38 csharp script compile start...
+20:21:38 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:22:04 Server is starting...
+20:22:05 Start checking table schema, please wait.
+20:22:05 Check table schema successfully.
+20:22:05 script compiled successfully.
+20:22:05 CacheFactory listen has started...
+20:22:06 Socket service 192.168.1.104:9001 is started.
+20:22:06 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+20:22:55 csharp script compile start...
+20:22:55 csharp script compiled successfully.
+Update script file count:1.
+20:23:20 csharp script compile start...
+20:23:20 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:24:01 Server is starting...
+20:24:03 Start checking table schema, please wait.
+20:24:03 Check table schema successfully.
+20:24:03 script compiled successfully.
+20:24:03 CacheFactory listen has started...
+20:24:03 Socket service 192.168.1.104:9001 is started.
+20:24:03 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:24:42 Server is starting...
+20:24:43 Start checking table schema, please wait.
+20:24:43 Check table schema successfully.
+20:24:43 script compiled successfully.
+20:24:43 CacheFactory listen has started...
+20:24:44 Socket service 192.168.1.104:9001 is started.
+20:24:44 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:26:27 Server is starting...
+20:26:29 Start checking table schema, please wait.
+20:26:29 Check table schema successfully.
+20:26:29 script compiled successfully.
+20:26:29 CacheFactory listen has started...
+20:26:29 Socket service 192.168.1.104:9001 is started.
+20:26:29 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:51:32 Server is starting...
+20:51:32 Server failed to start error:The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:51:57 Server is starting...
+20:51:57 Server failed to start error:The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+20:52:15 Server is starting...
+20:52:16 Start checking table schema, please wait.
+20:52:16 Check table schema successfully.
+20:52:16 script compiled successfully.
+20:52:17 CacheFactory listen has started...
+20:52:17 Socket service 112.246.215.181:9001 is started.
+20:52:17 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".

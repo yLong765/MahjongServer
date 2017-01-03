@@ -1,0 +1,204 @@
+Time:2016-11-16 20:41:20:145-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-16 20:42:16:441-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d20%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d13d68eb0ebb541f22d8e5672753268e0, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:468-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d21%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d9960e125a66712821fe36eb537ae1b1b, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:475-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d22%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d381ca67a669fc3b49ccf3427bde3c49d, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:481-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d23%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d8a17dce12f5df1e07d0c827276f0a4d8, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:488-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d24%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d04e8f526ada5a3b27e0f5e9b54b4eb79, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:493-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d25%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d238c7db02cad3cb892b0a152bb549242, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:502-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d26%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3df5ef45990af82f8e6f3f90874ffe11f8, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:509-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d27%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d285f2234cb12b300fa1bc2db1043d4c6, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:515-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d28%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d010b22c211efe8f3bb5953e5ff1d91d5, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:520-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d29%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d812df179bafc1fd43a991d9c30ffc5b1, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:527-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d30%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3db00f6c50abcc7ded184a97ab0856cf6d, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:533-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d31%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d6a5c724d0dc151afffe1c56c7e6a80ed, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:538-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d32%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d7499c2f930be71a840b42fa166f0156e, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:16:544-Trace>>Action2001 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“e2kqzzfv, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\e2kqzzfv.dll”位置处)。类型 B 源自“qkr4a3e1, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\qkr4a3e1.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.FindRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 101
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 25
+   在 GameServer.CsScript.Action.Action2001.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs:行号 44
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d33%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2001%26roomID%3d1%26BrandOperation%3d1%26sign%3d7e7de43c24a54463abaf68e9695041ac, Uid:0, Pid:
+Host:127.0.0.1:55544
+
+
+Time:2016-11-16 20:42:20:092-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-16 20:48:50:403-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-16 20:49:50:361-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-16 20:53:41:932-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-16 20:55:27:129-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2,MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_2,MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2016-11-16 20:57:48:291-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3,MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_3,MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-16 20:58:47:830-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-16 20:59:47:781-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_4,MahjongServer.Script.CsScript.Room.RoomCache_5
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_4,MahjongServer.Script.CsScript.Room.RoomCache_5
+
+

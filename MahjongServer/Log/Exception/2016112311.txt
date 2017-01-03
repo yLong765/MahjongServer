@@ -1,0 +1,9 @@
+Time:2016-11-23 11:58:27:330-Trace>>Action request GameServer.CsScript.Action.Action2005,GameServer.CsScript error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GameServer.CsScript.Action.Action2005.BuildPacket() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2005.cs:行号 33
+   在 ZyGames.Framework.Game.Service.GameStruct.WriteResponse(BaseGameResponse response)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Process(BaseStruct baseStruct, ActionGetter actionGetter, BaseGameResponse response)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Request(String typeName, ActionGetter actionGetter, BaseGameResponse response)
+param:Url:?d=MsgId%3d3%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2005%26sign%3df6a16405394332b18f9c7de746d6f0ee, Uid:0, Pid:
+Host:127.0.0.1:56664
+
+

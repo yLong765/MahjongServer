@@ -1,0 +1,442 @@
+Time:2016-11-12 10:00:10:456-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_5
+error:MahjongServer.Script.CsScript.Room.RoomCache_5
+
+
+Time:2016-11-12 10:00:33:677-Trace>>Get redis "MahjongServer.Script.CsScript.Room.RoomCache" key:"MahjongServer.Script.CsScript.Room.RoomCache" cache error:System.Exception: ProtoBuf deserialize type:MahjongServer.Script.CsScript.Room.RoomCache error ---> ProtoBuf.ProtoException: Invalid wire-type; this usually means you have over-written a file without truncating or setting the length; see http://stackoverflow.com/q/2152978/23354
+   在 ProtoBuf.ProtoReader.StartSubItem(ProtoReader reader)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.ListDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.Meta.TypeModel.DeserializeCore(ProtoReader reader, Type type, Object value, Boolean noAutoCreate)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type, SerializationContext context)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type)
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   在 ZyGames.Framework.Common.Serialization.ProtobufCacheSerializer.Deserialize(Byte[] data, Type type)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<TryGetValue>b__44[T](Byte[] t)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs)
+
+
+Time:2016-11-12 10:00:33:706-Trace>>The data:MahjongServer.Script.CsScript.Room.RoomCache loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef)
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean)
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetCacheItem[TValue](System.String, Boolean, TValue ByRef, ZyGames.Framework.Model.LoadingStatus ByRef)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetEntity(System.String, T ByRef)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T FindKey(System.Object[])
+   at MahjongServer.Script.CsScript.Room.Room.System.String JoinRoom(Int32, ZyGames.Framework.Game.Contract.GameSession) file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:line 26
+   at GameServer.CsScript.Action.Action2000.Boolean TakeAction() file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:line 39
+   at ZyGames.Framework.Game.Service.BaseStruct.Boolean DoAction()
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Process(ZyGames.Framework.Game.Service.BaseStruct, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Request(System.String, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.GameSocketHost+<ProcessPackage>d__0.Void MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.System.Threading.Tasks.Task ProcessPackage(ZyGames.Framework.Game.Contract.RequestPackage, ZyGames.Framework.Game.Contract.GameSession)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void socketLintener_DataReceived(System.Object, ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void OnDataReceived(ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void IO_Completed(System.Object, System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Threading.ExecutionContext.Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void FinishOperationSuccess(System.Net.Sockets.SocketError, Int32, System.Net.Sockets.SocketFlags)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+   at System.Threading._IOCompletionCallback.Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+
+
+Time:2016-11-12 10:00:35:777-Trace>>Get redis "MahjongServer.Script.CsScript.Room.RoomCache" key:"MahjongServer.Script.CsScript.Room.RoomCache" cache error:System.Exception: ProtoBuf deserialize type:MahjongServer.Script.CsScript.Room.RoomCache error ---> ProtoBuf.ProtoException: Invalid wire-type; this usually means you have over-written a file without truncating or setting the length; see http://stackoverflow.com/q/2152978/23354
+   在 ProtoBuf.ProtoReader.StartSubItem(ProtoReader reader)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.ListDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.Meta.TypeModel.DeserializeCore(ProtoReader reader, Type type, Object value, Boolean noAutoCreate)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type, SerializationContext context)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type)
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   在 ZyGames.Framework.Common.Serialization.ProtobufCacheSerializer.Deserialize(Byte[] data, Type type)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<TryGetValue>b__44[T](Byte[] t)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs)
+
+
+Time:2016-11-12 10:00:35:782-Trace>>The data:MahjongServer.Script.CsScript.Room.RoomCache loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef)
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean)
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetCacheItem[TValue](System.String, Boolean, TValue ByRef, ZyGames.Framework.Model.LoadingStatus ByRef)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetEntity(System.String, T ByRef)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T FindKey(System.Object[])
+   at MahjongServer.Script.CsScript.Room.Room.System.String JoinRoom(Int32, ZyGames.Framework.Game.Contract.GameSession) file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:line 26
+   at GameServer.CsScript.Action.Action2000.Boolean TakeAction() file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:line 39
+   at ZyGames.Framework.Game.Service.BaseStruct.Boolean DoAction()
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Process(ZyGames.Framework.Game.Service.BaseStruct, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Request(System.String, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.GameSocketHost+<ProcessPackage>d__0.Void MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.System.Threading.Tasks.Task ProcessPackage(ZyGames.Framework.Game.Contract.RequestPackage, ZyGames.Framework.Game.Contract.GameSession)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void socketLintener_DataReceived(System.Object, ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void OnDataReceived(ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void IO_Completed(System.Object, System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Threading.ExecutionContext.Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void FinishOperationSuccess(System.Net.Sockets.SocketError, Int32, System.Net.Sockets.SocketFlags)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+   at System.Threading._IOCompletionCallback.Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+
+
+Time:2016-11-12 10:05:57:589-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-12 10:10:55:991-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_6
+error:MahjongServer.Script.CsScript.Room.RoomCache_6
+
+
+Time:2016-11-12 10:11:03:211-Trace>>Get redis "MahjongServer.Script.CsScript.Room.RoomCache" key:"MahjongServer.Script.CsScript.Room.RoomCache" cache error:System.Exception: ProtoBuf deserialize type:MahjongServer.Script.CsScript.Room.RoomCache error ---> ProtoBuf.ProtoException: Invalid wire-type; this usually means you have over-written a file without truncating or setting the length; see http://stackoverflow.com/q/2152978/23354
+   在 ProtoBuf.ProtoReader.StartSubItem(ProtoReader reader)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.ListDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.Meta.TypeModel.DeserializeCore(ProtoReader reader, Type type, Object value, Boolean noAutoCreate)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type, SerializationContext context)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type)
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   在 ZyGames.Framework.Common.Serialization.ProtobufCacheSerializer.Deserialize(Byte[] data, Type type)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<TryGetValue>b__44[T](Byte[] t)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs)
+
+
+Time:2016-11-12 10:11:03:221-Trace>>The data:MahjongServer.Script.CsScript.Room.RoomCache loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef)
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean)
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetCacheItem[TValue](System.String, Boolean, TValue ByRef, ZyGames.Framework.Model.LoadingStatus ByRef)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetEntity(System.String, T ByRef)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T FindKey(System.Object[])
+   at MahjongServer.Script.CsScript.Room.Room.System.String JoinRoom(Int32, ZyGames.Framework.Game.Contract.GameSession) file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:line 26
+   at GameServer.CsScript.Action.Action2000.Boolean TakeAction() file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:line 40
+   at ZyGames.Framework.Game.Service.BaseStruct.Boolean DoAction()
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Process(ZyGames.Framework.Game.Service.BaseStruct, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Request(System.String, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.GameSocketHost+<ProcessPackage>d__0.Void MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.System.Threading.Tasks.Task ProcessPackage(ZyGames.Framework.Game.Contract.RequestPackage, ZyGames.Framework.Game.Contract.GameSession)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void socketLintener_DataReceived(System.Object, ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void OnDataReceived(ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void IO_Completed(System.Object, System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Threading.ExecutionContext.Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void FinishOperationSuccess(System.Net.Sockets.SocketError, Int32, System.Net.Sockets.SocketFlags)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+   at System.Threading._IOCompletionCallback.Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+
+
+Time:2016-11-12 10:21:05:779-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_7
+error:MahjongServer.Script.CsScript.Room.RoomCache_7
+
+
+Time:2016-11-12 10:21:13:912-Trace>>Get redis "MahjongServer.Script.CsScript.Room.RoomCache" key:"MahjongServer.Script.CsScript.Room.RoomCache" cache error:System.Exception: ProtoBuf deserialize type:MahjongServer.Script.CsScript.Room.RoomCache error ---> ProtoBuf.ProtoException: Invalid wire-type; this usually means you have over-written a file without truncating or setting the length; see http://stackoverflow.com/q/2152978/23354
+   在 ProtoBuf.ProtoReader.ReadInt32()
+   在 ProtoBuf.Serializers.Int32Serializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.ListDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.Meta.TypeModel.DeserializeCore(ProtoReader reader, Type type, Object value, Boolean noAutoCreate)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type, SerializationContext context)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type)
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   在 ZyGames.Framework.Common.Serialization.ProtobufCacheSerializer.Deserialize(Byte[] data, Type type)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<TryGetValue>b__44[T](Byte[] t)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs)
+
+
+Time:2016-11-12 10:21:13:925-Trace>>Redis TryGetEntity MahjongServer.Script.CsScript.Room.RoomCache 124ms
+>>init time:1ms run:1ms
+>>redis get time:5ms run:4ms
+>>deserialize time:122ms run:117ms
+
+
+Time:2016-11-12 10:21:13:935-Trace>>The data:MahjongServer.Script.CsScript.Room.RoomCache loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef)
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean)
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetCacheItem[TValue](System.String, Boolean, TValue ByRef, ZyGames.Framework.Model.LoadingStatus ByRef)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetEntity(System.String, T ByRef)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T FindKey(System.Object[])
+   at MahjongServer.Script.CsScript.Room.Room.System.String JoinRoom(Int32, Int32) file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:line 26
+   at GameServer.CsScript.Action.Action2000.Boolean TakeAction() file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:line 40
+   at ZyGames.Framework.Game.Service.BaseStruct.Boolean DoAction()
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Process(ZyGames.Framework.Game.Service.BaseStruct, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Request(System.String, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.GameSocketHost+<ProcessPackage>d__0.Void MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.System.Threading.Tasks.Task ProcessPackage(ZyGames.Framework.Game.Contract.RequestPackage, ZyGames.Framework.Game.Contract.GameSession)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void socketLintener_DataReceived(System.Object, ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void OnDataReceived(ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void IO_Completed(System.Object, System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Threading.ExecutionContext.Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void FinishOperationSuccess(System.Net.Sockets.SocketError, Int32, System.Net.Sockets.SocketFlags)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+   at System.Threading._IOCompletionCallback.Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+
+
+Time:2016-11-12 10:21:15:145-Trace>>Get redis "MahjongServer.Script.CsScript.Room.RoomCache" key:"MahjongServer.Script.CsScript.Room.RoomCache" cache error:System.Exception: ProtoBuf deserialize type:MahjongServer.Script.CsScript.Room.RoomCache error ---> ProtoBuf.ProtoException: Invalid wire-type; this usually means you have over-written a file without truncating or setting the length; see http://stackoverflow.com/q/2152978/23354
+   在 ProtoBuf.ProtoReader.ReadInt32()
+   在 ProtoBuf.Serializers.Int32Serializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.ProtoReader.ReadTypedObject(Object value, Int32 key, ProtoReader reader, Type type)
+   在 ProtoBuf.ProtoReader.ReadObject(Object value, Int32 key, ProtoReader reader)
+   在 ProtoBuf.Serializers.SubItemSerializer.ProtoBuf.Serializers.IProtoSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TagDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.ListDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.PropertyDecorator.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Serializers.TypeSerializer.Read(Object value, ProtoReader source)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Deserialize(Int32 key, Object value, ProtoReader source)
+   在 ProtoBuf.Meta.TypeModel.DeserializeCore(ProtoReader reader, Type type, Object value, Boolean noAutoCreate)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type, SerializationContext context)
+   在 ProtoBuf.Meta.TypeModel.Deserialize(Stream source, Object value, Type type)
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.DeserializeAutoGZip(Byte[] data, Type type, Boolean isGzip)
+   在 ZyGames.Framework.Common.Serialization.ProtobufCacheSerializer.Deserialize(Byte[] data, Type type)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<TryGetValue>b__44[T](Byte[] t)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.TryGetValue[T](String redisKey, SchemaTable table, List`1& list, Boolean hasMutilKeyIndexs)
+
+
+Time:2016-11-12 10:21:15:154-Trace>>The data:MahjongServer.Script.CsScript.Room.RoomCache loaded  from redis fail.
+   at ZyGames.Framework.Cache.Generic.Pool.BaseCachePool.Boolean TryReceiveData[T](ZyGames.Framework.Net.TransReceiveParam, System.Collections.Generic.List`1[T] ByRef)
+   at ZyGames.Framework.Cache.Generic.BaseCacheStruct`1.Boolean TryLoadCache(ZyGames.Framework.Net.TransReceiveParam, Int32, Boolean)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Boolean LoadFactory(Boolean)
+   at ZyGames.Framework.Cache.Generic.CacheContainer.Void OnLoadFactory(System.Func`2[System.Boolean,System.Boolean], Boolean)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.ZyGames.Framework.Model.LoadingStatus Load()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Void CheckLoad()
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetCacheItem[TValue](System.String, Boolean, TValue ByRef, ZyGames.Framework.Model.LoadingStatus ByRef)
+   at ZyGames.Framework.Cache.Generic.EntityContainer`1.Boolean TryGetEntity(System.String, T ByRef)
+   at ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.T FindKey(System.Object[])
+   at MahjongServer.Script.CsScript.Room.Room.System.String JoinRoom(Int32, Int32) file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:line 26
+   at GameServer.CsScript.Action.Action2000.Boolean TakeAction() file d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:line 40
+   at ZyGames.Framework.Game.Service.BaseStruct.Boolean DoAction()
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Process(ZyGames.Framework.Game.Service.BaseStruct, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.ActionFactory.Void Request(System.String, ZyGames.Framework.Game.Service.ActionGetter, ZyGames.Framework.Game.Service.BaseGameResponse)
+   at ZyGames.Framework.Game.Contract.GameSocketHost+<ProcessPackage>d__0.Void MoveNext()
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Void Start[TStateMachine](TStateMachine ByRef)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.System.Threading.Tasks.Task ProcessPackage(ZyGames.Framework.Game.Contract.RequestPackage, ZyGames.Framework.Game.Contract.GameSession)
+   at ZyGames.Framework.Game.Contract.GameSocketHost.Void socketLintener_DataReceived(System.Object, ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void OnDataReceived(ZyGames.Framework.RPC.Sockets.ConnectionEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)
+   at ZyGames.Framework.RPC.Sockets.SocketListener.Void IO_Completed(System.Object, System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void OnCompleted(System.Net.Sockets.SocketAsyncEventArgs)
+   at System.Threading.ExecutionContext.Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+   at System.Threading.ExecutionContext.Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void FinishOperationSuccess(System.Net.Sockets.SocketError, Int32, System.Net.Sockets.SocketFlags)
+   at System.Net.Sockets.SocketAsyncEventArgs.Void CompletionPortCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+   at System.Threading._IOCompletionCallback.Void PerformIOCompletionCallback(UInt32, UInt32, System.Threading.NativeOverlapped*)
+
+
+
+Time:2016-11-12 10:25:25:706-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_8
+error:MahjongServer.Script.CsScript.Room.RoomCache_8
+
+
+Time:2016-11-12 10:25:40:941-Trace>>Redis TryGetEntity MahjongServer.Script.CsScript.Room.RoomCache 103ms
+>>init time:0ms run:0ms
+>>redis get time:4ms run:4ms
+>>deserialize time:102ms run:98ms
+
+
+Time:2016-11-12 10:27:28:777-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_5
+error:MahjongServer.Script.CsScript.Room.RoomCache_5
+
+
+Time:2016-11-12 10:29:14:698-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_3,MahjongServer.Script.CsScript.Room.RoomCache_4,MahjongServer.Script.CsScript.Room.RoomCache_5,MahjongServer.Script.CsScript.Room.RoomCache_456
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_3,MahjongServer.Script.CsScript.Room.RoomCache_4,MahjongServer.Script.CsScript.Room.RoomCache_5,MahjongServer.Script.CsScript.Room.RoomCache_456
+
+
+Time:2016-11-12 10:30:14:650-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 10:31:14:652-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-12 10:34:54:286-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:48
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:60
+Message:当前上下文中不存在名称“Room”
+
+
+Time:2016-11-12 10:34:54:295-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-12 10:38:19:548-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-12 10:39:19:509-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-12 10:53:59:377-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs, Line:13
+Message:未能找到类型或命名空间名称“Mono”(是否缺少 using 指令或程序集引用?)
+
+
+Time:2016-11-12 10:53:59:384-Trace>>Script init error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Load()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Init()
+   在 ZyGames.Framework.Script.ScriptRuntimeDomain.CreateScope(ScriptSettupInfo settupInfo)
+   在 ZyGames.Framework.Script.ScriptEngines.InitScriptRuntimeScope()
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize().
+
+
+Time:2016-11-12 10:53:59:386-Trace>>OnInit error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.ScriptEngines.Initialize()
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting)
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart()
+
+
+Time:2016-11-12 10:55:40:987-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2,MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_2,MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 10:56:00:313-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2001.cs, Line:64
+Message:应输入 ;
+
+
+Time:2016-11-12 10:56:00:324-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-12 10:57:10:915-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2016-11-12 10:57:56:049-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:164
+Message:只有 assignment、call、increment、decrement、await 和 new 对象表达式可用作语句
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+
+
+Time:2016-11-12 10:57:56:057-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-12 10:58:10:879-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_0
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_0
+
+
+Time:2016-11-12 10:59:34:097-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_0,MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_0,MahjongServer.Script.CsScript.Room.RoomCache_1
+
+

@@ -1,0 +1,108 @@
+Time:2016-11-06 20:19:21:239-Trace>>OnInit error:System.Exception: The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass6.<InitRedisInfo>b__3(RedisClient cli)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(RedisClient client, String[] watchKeys, Func`1 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass13.<ProcessTrans>b__11(RedisClient client)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.Process(Action`1 func, RedisPoolSetting setting)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(String[] watchKeys, Func`2 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.InitRedisInfo()
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting)
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart()
+
+
+Time:2016-11-06 20:20:21:391-Trace>>Action2000 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Model.AbstractEntity.GetKeyCode()
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Add(T t, Int32 period)
+   在 MahjongServer.Script.CsScript.Room.Room.CreateRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 18
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 32
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26sign%3d4696d0d54c748a93665d75179704a2f0, Uid:0, Pid:
+Host:127.0.0.1:54435
+
+
+Time:2016-11-06 20:21:33:318-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:48
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs, Line:32
+Message:不能像使用方法那样使用不可调用的成员“System.Console.WindowWidth”。
+
+
+Time:2016-11-06 20:21:33:319-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2016-11-06 20:22:10:758-Trace>>Action2000 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Model.AbstractEntity.GetKeyCode()
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Add(T t, Int32 period)
+   在 MahjongServer.Script.CsScript.Room.Room.CreateRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 18
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 33
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26sign%3d4696d0d54c748a93665d75179704a2f0, Uid:0, Pid:
+Host:127.0.0.1:54621
+
+
+Time:2016-11-06 20:24:03:318-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2016-11-06 20:25:00:543-Trace>>Action2000 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Model.AbstractEntity.GetKeyCode()
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Add(T t, Int32 period)
+   在 MahjongServer.Script.CsScript.Room.Room.CreateRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 18
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 32
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d3%26sign%3de090977adf9d604bea00d85d01cce6fe, Uid:0, Pid:
+Host:127.0.0.1:54892
+
+
+Time:2016-11-06 20:26:29:250-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2016-11-06 20:26:36:223-Trace>>Action2000 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Model.AbstractEntity.GetKeyCode()
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Add(T t, Int32 period)
+   在 MahjongServer.Script.CsScript.Room.Room.CreateRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 18
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 32
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d3%26sign%3de090977adf9d604bea00d85d01cce6fe, Uid:0, Pid:
+Host:127.0.0.1:55038
+
+
+Time:2016-11-06 20:27:29:208-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2016-11-06 20:51:32:602-Trace>>OnInit error:System.Exception: The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass6.<InitRedisInfo>b__3(RedisClient cli)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(RedisClient client, String[] watchKeys, Func`1 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass13.<ProcessTrans>b__11(RedisClient client)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.Process(Action`1 func, RedisPoolSetting setting)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(String[] watchKeys, Func`2 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.InitRedisInfo()
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting)
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart()
+
+
+Time:2016-11-06 20:51:57:556-Trace>>OnInit error:System.Exception: The game server is using Redis at host name "yyl" path D:\work\VS2015 File\HelloWorld\HelloWorld\.
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass6.<InitRedisInfo>b__3(RedisClient cli)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(RedisClient client, String[] watchKeys, Func`1 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass13.<ProcessTrans>b__11(RedisClient client)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.Process(Action`1 func, RedisPoolSetting setting)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(String[] watchKeys, Func`2 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.InitRedisInfo()
+   在 ZyGames.Framework.Game.Runtime.GameEnvironment.Start(EnvironmentSetting setting, CacheSetting cacheSetting)
+   在 ZyGames.Framework.Game.Runtime.RuntimeHost.OnStart()
+
+
+Time:2016-11-06 20:52:50:808-Trace>>Action2000 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZyGames.Framework.Model.AbstractEntity.GetKeyCode()
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.Add(T t, Int32 period)
+   在 MahjongServer.Script.CsScript.Room.Room.CreateRoom(Int32 id) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 18
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 32
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d3%26sign%3de090977adf9d604bea00d85d01cce6fe, Uid:0, Pid:
+Host:127.0.0.1:50298
+
+

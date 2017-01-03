@@ -1,0 +1,54 @@
+Time:2016-11-23 23:00:28:456-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:00:28:705-Trace>>Socket connect status: TotalCount=17, CurrentCount=1, CloseCount=16, RejectedCount=0
+
+
+Time:2016-11-23 23:01:28:455-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:01:28:718-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+
+Time:2016-11-23 23:02:28:456-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:02:28:719-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+
+Time:2016-11-23 23:03:28:456-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:03:28:734-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+
+Time:2016-11-23 23:04:28:455-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:04:28:751-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+
+Time:2016-11-23 23:05:28:456-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:05:28:752-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+
+Time:2016-11-23 23:06:28:457-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:06:28:753-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+
+Time:2016-11-23 23:07:28:468-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:07:28:767-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+
+Time:2016-11-23 23:08:28:468-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 23:08:28:769-Trace>>Socket connect status: TotalCount=18, CurrentCount=1, CloseCount=17, RejectedCount=0
+
+

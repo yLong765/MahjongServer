@@ -1,0 +1,345 @@
+Time:2016-11-23 22:09:19:789-Redis write queue start init...
+
+
+Time:2016-11-23 22:09:19:795-Sql wait write queue start init...
+
+
+Time:2016-11-23 22:09:19:798-Sql write queue start init...
+
+
+Time:2016-11-23 22:09:20:273-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:09:20:552-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:11:26:037-Redis write queue start init...
+
+
+Time:2016-11-23 22:11:26:043-Sql wait write queue start init...
+
+
+Time:2016-11-23 22:11:26:047-Sql write queue start init...
+
+
+Time:2016-11-23 22:11:26:531-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:11:26:816-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:12:26:546-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:12:26:830-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:13:26:546-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:13:26:831-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:14:26:546-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:14:26:831-Trace>>Socket connect status: TotalCount=1, CurrentCount=0, CloseCount=1, RejectedCount=0
+
+
+Time:2016-11-23 22:14:34:502-Redis write queue start init...
+
+
+Time:2016-11-23 22:14:34:507-Sql wait write queue start init...
+
+
+Time:2016-11-23 22:14:34:511-Sql write queue start init...
+
+
+Time:2016-11-23 22:14:34:977-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:14:35:257-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:15:44:212-Redis write queue start init...
+
+
+Time:2016-11-23 22:15:44:216-Sql wait write queue start init...
+
+
+Time:2016-11-23 22:15:44:220-Sql write queue start init...
+
+
+Time:2016-11-23 22:15:44:687-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:15:44:954-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:16:44:687-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:16:44:956-Trace>>Socket connect status: TotalCount=2, CurrentCount=1, CloseCount=1, RejectedCount=0
+
+
+Time:2016-11-23 22:17:44:688-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:17:44:968-Trace>>Socket connect status: TotalCount=3, CurrentCount=1, CloseCount=2, RejectedCount=0
+
+
+Time:2016-11-23 22:18:44:689-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:18:44:968-Trace>>Socket connect status: TotalCount=3, CurrentCount=1, CloseCount=2, RejectedCount=0
+
+
+Time:2016-11-23 22:19:44:688-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:19:44:968-Trace>>Socket connect status: TotalCount=4, CurrentCount=1, CloseCount=3, RejectedCount=0
+
+
+Time:2016-11-23 22:20:44:689-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:20:44:968-Trace>>Socket connect status: TotalCount=4, CurrentCount=1, CloseCount=3, RejectedCount=0
+
+
+Time:2016-11-23 22:22:27:808-Redis write queue start init...
+
+
+Time:2016-11-23 22:22:27:813-Sql wait write queue start init...
+
+
+Time:2016-11-23 22:22:27:817-Sql write queue start init...
+
+
+Time:2016-11-23 22:22:28:289-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:22:28:548-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:23:28:297-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:23:28:562-Trace>>Socket connect status: TotalCount=2, CurrentCount=1, CloseCount=1, RejectedCount=0
+
+
+Time:2016-11-23 22:24:28:313-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:24:28:562-Trace>>Socket connect status: TotalCount=2, CurrentCount=0, CloseCount=2, RejectedCount=0
+
+
+Time:2016-11-23 22:25:28:313-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:25:28:562-Trace>>Socket connect status: TotalCount=3, CurrentCount=1, CloseCount=2, RejectedCount=0
+
+
+Time:2016-11-23 22:26:28:314-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:26:28:562-Trace>>Socket connect status: TotalCount=3, CurrentCount=0, CloseCount=3, RejectedCount=0
+
+
+Time:2016-11-23 22:27:28:315-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:27:28:563-Trace>>Socket connect status: TotalCount=4, CurrentCount=1, CloseCount=3, RejectedCount=0
+
+
+Time:2016-11-23 22:28:28:330-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:28:28:564-Trace>>Socket connect status: TotalCount=4, CurrentCount=1, CloseCount=3, RejectedCount=0
+
+
+Time:2016-11-23 22:29:28:333-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:29:28:565-Trace>>Socket connect status: TotalCount=5, CurrentCount=0, CloseCount=5, RejectedCount=0
+
+
+Time:2016-11-23 22:30:28:334-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:30:28:578-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2016-11-23 22:31:28:344-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:31:28:578-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2016-11-23 22:32:28:345-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:32:28:577-Trace>>Socket connect status: TotalCount=6, CurrentCount=0, CloseCount=6, RejectedCount=0
+
+
+Time:2016-11-23 22:33:28:347-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:33:28:578-Trace>>Socket connect status: TotalCount=7, CurrentCount=0, CloseCount=7, RejectedCount=0
+
+
+Time:2016-11-23 22:34:28:348-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:34:28:579-Trace>>Socket connect status: TotalCount=8, CurrentCount=1, CloseCount=7, RejectedCount=0
+
+
+Time:2016-11-23 22:35:28:359-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:35:28:579-Trace>>Socket connect status: TotalCount=8, CurrentCount=1, CloseCount=7, RejectedCount=0
+
+
+Time:2016-11-23 22:36:28:360-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:36:28:579-Trace>>Socket connect status: TotalCount=8, CurrentCount=1, CloseCount=7, RejectedCount=0
+
+
+Time:2016-11-23 22:37:28:361-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:37:28:580-Trace>>Socket connect status: TotalCount=8, CurrentCount=1, CloseCount=7, RejectedCount=0
+
+
+Time:2016-11-23 22:38:28:361-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:38:28:581-Trace>>Socket connect status: TotalCount=8, CurrentCount=1, CloseCount=7, RejectedCount=0
+
+
+Time:2016-11-23 22:39:28:374-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:39:28:581-Trace>>Socket connect status: TotalCount=8, CurrentCount=1, CloseCount=7, RejectedCount=0
+
+
+Time:2016-11-23 22:40:28:384-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:40:28:587-Trace>>Socket connect status: TotalCount=10, CurrentCount=1, CloseCount=9, RejectedCount=0
+
+
+Time:2016-11-23 22:41:28:396-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:41:28:597-Trace>>Socket connect status: TotalCount=10, CurrentCount=1, CloseCount=9, RejectedCount=0
+
+
+Time:2016-11-23 22:42:28:406-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:42:28:610-Trace>>Socket connect status: TotalCount=11, CurrentCount=1, CloseCount=10, RejectedCount=0
+
+
+Time:2016-11-23 22:43:28:406-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:43:28:610-Trace>>Socket connect status: TotalCount=11, CurrentCount=1, CloseCount=10, RejectedCount=0
+
+
+Time:2016-11-23 22:44:28:406-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:44:28:611-Trace>>Socket connect status: TotalCount=13, CurrentCount=1, CloseCount=12, RejectedCount=0
+
+
+Time:2016-11-23 22:45:28:408-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:45:28:626-Trace>>Socket connect status: TotalCount=13, CurrentCount=1, CloseCount=12, RejectedCount=0
+
+
+Time:2016-11-23 22:46:28:409-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:46:28:640-Trace>>Socket connect status: TotalCount=13, CurrentCount=1, CloseCount=12, RejectedCount=0
+
+
+Time:2016-11-23 22:47:28:409-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:47:28:641-Trace>>Socket connect status: TotalCount=13, CurrentCount=0, CloseCount=13, RejectedCount=0
+
+
+Time:2016-11-23 22:48:28:409-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:48:28:643-Trace>>Socket connect status: TotalCount=14, CurrentCount=0, CloseCount=14, RejectedCount=0
+
+
+Time:2016-11-23 22:49:28:409-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:49:28:644-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:50:28:424-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:50:28:658-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:51:28:437-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:51:28:659-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:52:28:438-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:52:28:659-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:53:28:439-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:53:28:674-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:54:28:440-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:54:28:677-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:55:28:440-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:55:28:678-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:56:28:454-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:56:28:694-Trace>>Socket connect status: TotalCount=15, CurrentCount=0, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:57:28:454-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:57:28:703-Trace>>Socket connect status: TotalCount=16, CurrentCount=1, CloseCount=15, RejectedCount=0
+
+
+Time:2016-11-23 22:58:28:455-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:58:28:704-Trace>>Socket connect status: TotalCount=17, CurrentCount=1, CloseCount=16, RejectedCount=0
+
+
+Time:2016-11-23 22:59:28:455-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-23 22:59:28:704-Trace>>Socket connect status: TotalCount=17, CurrentCount=1, CloseCount=16, RejectedCount=0
+
+

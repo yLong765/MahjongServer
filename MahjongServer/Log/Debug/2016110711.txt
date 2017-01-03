@@ -1,0 +1,128 @@
+Time:2016-11-07 11:00:59:392-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:00:59:393-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:01:12:800-Trace>>Process action-2000 Uid:0 access timeout 207071.3268/500ms.
+Url:Url:?d=MsgId%3d1%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26sign%3d1e9d16031f70b8d3895f29071b7abe5a, Uid:0, Pid:
+Host:127.0.0.1:56069
+
+
+Time:2016-11-07 11:01:14:328-Trace>>Socket connect status: TotalCount=1, CurrentCount=1, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:01:14:328-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:03:06:015-Redis write queue start init...
+
+
+Time:2016-11-07 11:03:06:018-Sql wait write queue start init...
+
+
+Time:2016-11-07 11:03:06:020-Sql write queue start init...
+
+
+Time:2016-11-07 11:03:06:516-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:03:06:773-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:06:29:319-Redis write queue start init...
+
+
+Time:2016-11-07 11:06:29:321-Sql wait write queue start init...
+
+
+Time:2016-11-07 11:06:29:323-Sql write queue start init...
+
+
+Time:2016-11-07 11:06:29:803-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:06:30:061-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:07:25:200-Redis write queue start init...
+
+
+Time:2016-11-07 11:07:25:203-Sql wait write queue start init...
+
+
+Time:2016-11-07 11:07:25:205-Sql write queue start init...
+
+
+Time:2016-11-07 11:07:25:626-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:07:25:998-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:07:29:812-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:07:30:062-Trace>>Socket connect status: TotalCount=2, CurrentCount=1, CloseCount=1, RejectedCount=0
+
+
+Time:2016-11-07 11:07:50:577-Redis write queue start init...
+
+
+Time:2016-11-07 11:07:50:579-Sql wait write queue start init...
+
+
+Time:2016-11-07 11:07:50:581-Sql write queue start init...
+
+
+Time:2016-11-07 11:07:51:050-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:07:51:423-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:08:05:220-Redis write queue start init...
+
+
+Time:2016-11-07 11:08:05:223-Sql wait write queue start init...
+
+
+Time:2016-11-07 11:08:05:224-Sql write queue start init...
+
+
+Time:2016-11-07 11:08:05:641-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:08:06:045-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:12:23:221-Redis write queue start init...
+
+
+Time:2016-11-07 11:12:23:224-Sql wait write queue start init...
+
+
+Time:2016-11-07 11:12:23:226-Sql write queue start init...
+
+
+Time:2016-11-07 11:12:23:717-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:12:23:968-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:16:00:924-Redis write queue start init...
+
+
+Time:2016-11-07 11:16:00:926-Sql wait write queue start init...
+
+
+Time:2016-11-07 11:16:00:928-Sql write queue start init...
+
+
+Time:2016-11-07 11:16:01:423-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2016-11-07 11:16:01:671-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+

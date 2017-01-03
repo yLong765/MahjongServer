@@ -1,0 +1,10 @@
+Time:2016-10-22 09:26:14:020-Trace>>ReLoadRedis error:System.Exception: The game server is using Redis at host name "yyl" path D:\work\VS2015 File\SCUTservice\SCUTservice\Console\.
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass6.<InitRedisInfo>b__3(RedisClient cli)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(RedisClient client, String[] watchKeys, Func`1 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.<>c__DisplayClass13.<ProcessTrans>b__11(RedisClient client)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.Process(Action`1 func, RedisPoolSetting setting)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.ProcessTrans(String[] watchKeys, Func`2 processFunc, Action`1 transFunc, Action`2 errorFunc)
+   在 ZyGames.Framework.Redis.RedisConnectionPool.InitRedisInfo()
+   在 Scut.SMS.ServerManager.ReLoadRedis()
+
+
