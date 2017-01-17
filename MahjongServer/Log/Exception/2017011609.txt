@@ -1,0 +1,20 @@
+Time:2017-01-16 09:35:33:399-Trace>>SendToClient action:2004 userId:0 error:System.NotSupportedException: Not found script action2004, please check script path setting.
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.ProcessActionResponse(IActionDispatcher actionDispatcher, Int32 actionId, ActionGetter actionGetter)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.<SendAction>d__69.MoveNext()
+
+
+Time:2017-01-16 09:35:41:045-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-16 09:36:04:622-Trace>>SendToClient action:2004 userId:0 error:System.NotSupportedException: Not found script action2004, please check script path setting.
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.ProcessActionResponse(IActionDispatcher actionDispatcher, Int32 actionId, ActionGetter actionGetter)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.<SendAction>d__69.MoveNext()
+
+
+Time:2017-01-16 09:36:40:993-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+

@@ -9,19 +9,22 @@ using ZyGames.Framework.Game.Service;
 
 namespace GameServer.CsScript.Action
 {
+    /// <summary>
+    /// 返回房间数据
+    /// </summary>
     class Action2006 : BaseStruct
     {
         private int roomID;
-        private string roomName;
-        private int size;
+        private string Name;
+        private int Size;
 
         public Action2006(HttpGet httpGet) : base(2006, httpGet)
         {
         }
         public override void BuildPacket()
         {
-            PushIntoStack(roomName);
-            PushIntoStack(size);
+            PushIntoStack(Name);
+            PushIntoStack(Size);
         }
 
         public override bool GetUrlElement()
@@ -32,8 +35,8 @@ namespace GameServer.CsScript.Action
 
         public override bool TakeAction()
         {
-            roomName = Room.getName(roomID);
-            size = Room.getSize(roomID);
+            Name = Room.getName(roomID);
+            Size = Room.getSize(roomID);
             return true;
         }
     }

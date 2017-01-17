@@ -29,15 +29,7 @@ namespace GameServer.CsScript.Action
 
         public override void BuildPacket()
         {
-            if (Ro != (int)roomOperation.FindRoomData)
-            {
-                PushIntoStack(callback);
-            }
-            else
-            {
-                PushIntoStack(roomName);
-                PushIntoStack(size);
-            }
+            PushIntoStack(callback);
         }
 
         public override bool GetUrlElement()
@@ -81,10 +73,6 @@ namespace GameServer.CsScript.Action
                     Room.DelRoom(roomID);
                     break;
 
-                case (int)roomOperation.FindRoomData:
-                    roomName = Room.getName(roomID);
-                    size = Room.getSize(roomID);
-                    break;
             }
             return true;
         }
@@ -97,9 +85,9 @@ namespace GameServer.CsScript.Action
             var parameters = new Parameters();
             parameters["roomID"] = id;
 
-            ActionFactory.SendAction(sessionList, 2004, parameters, (session, asyncResult) =>
+            ActionFactory.SendAction(sessionList, 3001, parameters, (session, asyncResult) =>
             {
-                str = string.Format("Action 2003 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail");
+                str = string.Format("Action 3001 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail");
             }, httpGet.OpCode, 0);
 
             return str;
@@ -107,6 +95,7 @@ namespace GameServer.CsScript.Action
 
         private enum roomOperation : int
         {
+
             /// <summary>
             /// 加入房间
             /// </summary>
@@ -122,10 +111,6 @@ namespace GameServer.CsScript.Action
             /// </summary>
             Delete = 3,
 
-            /// <summary>
-            /// 房间数据
-            /// </summary>
-            FindRoomData = 4,
         }
     }
 }

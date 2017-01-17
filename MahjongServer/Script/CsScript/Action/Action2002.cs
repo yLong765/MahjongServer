@@ -15,8 +15,8 @@ namespace GameServer.CsScript.Action
     class Action2002 : BaseStruct
     {
         private int roomID;
-        private int rO;
         private int brand;
+        private int brandPos;
 
         public Action2002(HttpGet httpGet) : base(2002, httpGet)
         {
@@ -25,21 +25,14 @@ namespace GameServer.CsScript.Action
         public override bool GetUrlElement()
         {
             httpGet.GetInt("roomID", ref roomID);
-            httpGet.GetInt("RadioOperation", ref rO);
             httpGet.GetInt("brand", ref brand);
+            httpGet.GetInt("brandPos", ref brandPos);
             return true;
         }
 
         public override bool TakeAction()
         {
-
-            switch (rO)
-            {
-                case (int)RadioOperation.rBrand:
-                    Console.WriteLine(RadioSession(roomID));
-                    break;
-            }
-
+            Console.WriteLine(RadioSession(roomID));
             return true;
         }
 
@@ -50,10 +43,11 @@ namespace GameServer.CsScript.Action
             List<GameSession> sessionList = Room.getSessionsOfRoom(id);
             var parameters = new Parameters();
             parameters["brand"] = brand;
+            parameters["brandPos"] = brandPos;
 
-            ActionFactory.SendAction(sessionList, 2003, parameters, (session, asyncResult) =>
+            ActionFactory.SendAction(sessionList, 3000, parameters, (session, asyncResult) =>
             {
-                str = string.Format("Action 2003 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail");
+                str = string.Format("Action 3000 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail");
             }, httpGet.OpCode, 0);
 
             return str;
@@ -61,6 +55,9 @@ namespace GameServer.CsScript.Action
 
         enum RadioOperation
         {
+            /// <summary>
+            /// 广播牌
+            /// </summary>
             rBrand = 1,
         }
 

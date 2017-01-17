@@ -45,10 +45,6 @@ namespace GameServer.CsScript.Action
                 case (int)OperationCode.Ready:
                     GameLogic.PlayerReady(roomID, Current.SessionId);
                     break;
-
-                case (int)OperationCode.Test:
-
-                    break;
             }
             return true;
         }
@@ -57,8 +53,14 @@ namespace GameServer.CsScript.Action
 
     enum OperationCode
     {
+        /// <summary>
+        /// 获取牌
+        /// </summary>
         GetBrand = 1,
+
+        /// <summary>
+        /// 玩家准备
+        /// </summary>
         Ready = 2,
-        Test = 3,
     }
 }

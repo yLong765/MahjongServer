@@ -13,13 +13,13 @@ namespace GameServer.CsScript.Action
     /// <summary>
     /// 广播房间信息
     /// </summary>
-    class Action2004 : BaseStruct
+    class Action3001 : BaseStruct
     {
         private int roomID;
         private string[] sessions;
         private string roomName;
 
-        public Action2004(HttpGet httpGet) : base(2004, httpGet)
+        public Action3001(HttpGet httpGet) : base(3001, httpGet)
         {
         }
 

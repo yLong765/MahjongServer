@@ -11,23 +11,26 @@ namespace GameServer.CsScript.Action
     /// <summary>
     /// 广播牌
     /// </summary>
-    class Action2003 : BaseStruct
+    class Action3000 : BaseStruct
     {
         private int brand;
+        private int brandPos;
 
-        public Action2003(HttpGet httpGet) : base(2003, httpGet)
+        public Action3000(HttpGet httpGet) : base(3000, httpGet)
         {
         }
 
         public override bool GetUrlElement()
         {
             httpGet.GetInt("brand", ref brand);
+            httpGet.GetInt("brandPos", ref brandPos);
             return true;
         }
 
         public override void BuildPacket()
         {
             PushIntoStack(brand);
+            PushIntoStack(brandPos);
         }
 
         public override bool TakeAction()

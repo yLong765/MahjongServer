@@ -1,0 +1,15 @@
+Time:2017-01-17 09:14:48:918-Trace>>SendToClient action:2004 userId:0 error:System.NotSupportedException: Not found script action2004, please check script path setting.
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.ProcessActionResponse(IActionDispatcher actionDispatcher, Int32 actionId, ActionGetter actionGetter)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.<SendAction>d__69.MoveNext()
+
+
+Time:2017-01-17 09:14:52:181-Trace>>SendToClient action:2004 userId:0 error:System.NotSupportedException: Not found script action2004, please check script path setting.
+   在 ZyGames.Framework.Game.Contract.ActionFactory.FindRoute(String typeExpression, ActionGetter actionGetter, Int32 actionId)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.ProcessActionResponse(IActionDispatcher actionDispatcher, Int32 actionId, ActionGetter actionGetter)
+   在 ZyGames.Framework.Game.Contract.ActionFactory.<SendAction>d__69.MoveNext()
+
+
+Time:2017-01-17 09:14:52:250-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+

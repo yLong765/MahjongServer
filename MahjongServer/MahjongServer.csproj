@@ -107,8 +107,8 @@
     <Compile Include="Script\CsScript\Action\Action2000.cs" />
     <Compile Include="Script\CsScript\Action\Action2001.cs" />
     <Compile Include="Script\CsScript\Action\Action2002.cs" />
-    <Compile Include="Script\CsScript\Action\Action2003.cs" />
-    <Compile Include="Script\CsScript\Action\Action2004.cs" />
+    <Compile Include="Script\CsScript\Action\Action3000.cs" />
+    <Compile Include="Script\CsScript\Action\Action3001.cs" />
     <Compile Include="Script\CsScript\Action\Action2005.cs" />
     <Compile Include="Script\CsScript\Action\Action2006.cs" />
     <Compile Include="Script\CsScript\GameSetting\GameSetting.cs" />
