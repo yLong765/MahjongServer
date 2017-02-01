@@ -1,0 +1,231 @@
+Time:2017-01-26 10:25:50:713-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:26:16:017-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 10:26:36:958-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:26:43:405-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:26:50:300-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:26:52:379-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:26:58:280-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:27:01:565-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:27:06:160-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:27:15:987-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2017-01-26 10:33:14:899-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:33:25:067-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:33:33:686-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:33:33:698-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d12%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26roomName%3d222%26roomOperation%3d1%26sign%3d5afb803af5252cabc03099101ede6212, Uid:0, Pid:
+Host:127.0.0.1:52882
+
+
+Time:2017-01-26 10:33:36:037-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d13%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26roomName%3d222%26roomOperation%3d1%26sign%3d647f7408f62993ec90d1ddc30e8f179a, Uid:0, Pid:
+Host:127.0.0.1:52882
+
+
+Time:2017-01-26 10:33:36:095-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:33:46:564-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d14%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26roomName%3d222%26roomOperation%3d1%26sign%3d5eaa4b7da0ab2d89b83fb899aea100e8, Uid:0, Pid:
+Host:127.0.0.1:52882
+
+
+Time:2017-01-26 10:33:46:597-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:33:47:724-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d15%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26roomName%3d222%26roomOperation%3d1%26sign%3d4d570f9c54942c976b9bf3176107f1ff, Uid:0, Pid:
+Host:127.0.0.1:52882
+
+
+Time:2017-01-26 10:33:47:796-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:33:48:634-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 10:33:56:861-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d12%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26roomName%3d222%26roomOperation%3d1%26sign%3d5afb803af5252cabc03099101ede6212, Uid:0, Pid:
+Host:127.0.0.1:52911
+
+
+Time:2017-01-26 10:33:56:879-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:34:09:235-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:34:10:330-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:34:11:646-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:35:01:242-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:35:06:705-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:35:11:785-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d12%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26roomName%3dff%26roomOperation%3d1%26sign%3dec500b05a68176df0210b164dcae7202, Uid:0, Pid:
+Host:127.0.0.1:53020
+
+
+Time:2017-01-26 10:35:11:846-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:35:24:982-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 10:35:33:064-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:35:35:907-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:35:39:082-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:36:34:983-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:37:04:689-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:10:269-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:15:515-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:15:520-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d12%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26roomName%3dvv%26roomOperation%3d1%26sign%3db21900f874d4aae1c39d66f0c2d27751, Uid:0, Pid:
+Host:127.0.0.1:53149
+
+
+Time:2017-01-26 10:37:16:809-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d13%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26roomName%3dvv%26roomOperation%3d1%26sign%3df40df62273291299bc68b3a33252c55c, Uid:0, Pid:
+Host:127.0.0.1:53149
+
+
+Time:2017-01-26 10:37:16:829-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:17:423-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d14%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26roomName%3dvv%26roomOperation%3d1%26sign%3d2214011316180017f01eaf47a3a21919, Uid:0, Pid:
+Host:127.0.0.1:53149
+
+
+Time:2017-01-26 10:37:17:486-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:18:138-Trace>>Action2000 error:System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitBrand(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 67
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.InitGame(Int32 id, Int32 BrandNum) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 32
+   在 MahjongServer.Script.CsScript.Room.Room.JoinRoom(Int32 id, String sid, String name) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 59
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 49
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d15%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26roomName%3dvv%26roomOperation%3d1%26sign%3d5230bca1f82932f3303f32da55d8914e, Uid:0, Pid:
+Host:127.0.0.1:53149
+
+
+Time:2017-01-26 10:37:18:142-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:18:524-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2017-01-26 10:37:20:329-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:26:237-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:37:27:985-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 10:49:19:309-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:49:25:317-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 10:49:29:909-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+

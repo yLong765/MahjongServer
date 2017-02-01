@@ -17,11 +17,11 @@ namespace GameServer.CsScript.Action
     /// </summary>
     class Action2000 : BaseStruct
     {
-        private int callback;
+        private int BackRoom;
         private int roomID;
         private int Ro;
         private string roomName;
-        private int size;
+        private string playerName;
 
         public Action2000(HttpGet httpGet) : base(2000, httpGet)
         {
@@ -29,13 +29,15 @@ namespace GameServer.CsScript.Action
 
         public override void BuildPacket()
         {
-            PushIntoStack(callback);
+            PushIntoStack(BackRoom);
+            PushIntoStack(playerName);
         }
 
         public override bool GetUrlElement()
         {
             httpGet.GetInt("roomID", ref roomID);
             httpGet.GetString("roomName", ref roomName);
+            httpGet.GetString("playerName", ref playerName);
             httpGet.GetInt("roomOperation", ref Ro);
             return true;
         }
@@ -46,26 +48,28 @@ namespace GameServer.CsScript.Action
             {
                 case (int)roomOperation.Join:
                     if (roomID == -1) roomID = ++GameSetting.roomID;
-                    if (Room.JoinRoom(roomID, Current.SessionId, roomName)) 
+                    playerName = Room.buildName();
+
+                    if (Room.JoinRoom(roomID, Current.SessionId, roomName, playerName))
                     {
-                        callback = roomID;
-                        Console.WriteLine(RadioSession(roomID));
+                        BackRoom = roomID;
+                        Console.WriteLine(RadioSession(BackRoom));
                     }
                     else
                     {
-                        callback = 0;
+                        BackRoom = 0;
                     }
                     break;
 
                 case (int)roomOperation.Leave:
-                    if (Room.LeaveRoom(roomID, Current.SessionId))
+                    if (Room.LeaveRoom(roomID, playerName))
                     {
-                        callback = 1;
+                        BackRoom = 1;
                         Console.WriteLine(RadioSession(roomID));
                     }
                     else
                     {
-                        callback = 0;
+                        BackRoom = 0;
                     }
                     break;
 
@@ -83,7 +87,9 @@ namespace GameServer.CsScript.Action
 
             List<GameSession> sessionList = Room.getSessionsOfRoom(id);
             var parameters = new Parameters();
+
             parameters["roomID"] = id;
+            parameters["roomName"] = 
 
             ActionFactory.SendAction(sessionList, 3001, parameters, (session, asyncResult) =>
             {

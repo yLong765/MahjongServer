@@ -22,11 +22,15 @@ namespace MahjongServer.Script.CsScript.GameLogic
             if (room != null)
             {
                 Random rand = new Random(Guid.NewGuid().GetHashCode());
-                int r = rand.Next(0, 5);
+                int r = rand.Next(0, 4);
+
+                rand = new Random(Guid.NewGuid().GetHashCode());
+                int num = rand.Next(2, 12);
 
                 room.ModifyLocked(() =>
                 {
                     room.target = r;
+                    room.StartNum = num;
                 });
 
                 InitBrand(id, BrandNum);
@@ -121,23 +125,160 @@ namespace MahjongServer.Script.CsScript.GameLogic
         }
 
         /// <summary>
-        /// 玩家准备
+        /// 设置玩家操作等级
         /// </summary>
-        /// <param name = "id" > 房间ID </ param >
-        /// < param name="UserID">用户ID</param>
-        public static void PlayerReady(int id, string session)
+        /// <param name="id"></param>
+        /// <param name="playerid"></param>
+        /// <param name="level"></param>
+        public static void SetLevel(int id, int playerid, int level)
         {
             var room = Room.FindRoom(id);
 
             if (room != null)
             {
-                
-                if (Room.PlayerReady(id, session))
+                room.ModifyLocked(() =>
                 {
-                    Console.WriteLine("游戏开始初始化");
-                    InitGame(id, 136);
-                }
+                    room.Level[playerid] = level;
+                });
+            }
 
+        }
+
+        /// <summary>
+        /// 获取玩家操作等级
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="playerid"></param>
+        /// <returns></returns>
+        public static int GetLevel(int id, int playerid)
+        {
+            var room = Room.FindRoom(id);
+
+            if (room != null)
+            {
+                int p = room.Level[playerid];
+
+                room.ModifyLocked(() =>
+                {
+                    for (int i = 0; i < room.MaxPlayerLe; i++)
+                    {
+                        room.Level[i] = -1;
+                    }
+                });
+
+                return p;
+
+            }
+
+            return -1;
+        }
+
+        /// <summary>
+        /// 设置玩家操作牌
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="playerid"></param>
+        /// <param name="num"></param>
+        public static void SetNum(int id, int playerid, int num)
+        {
+            var room = Room.FindRoom(id);
+
+            if (room != null)
+            {
+                room.ModifyLocked(() =>
+                {
+                    room.Num[playerid] = num;
+                });
+            }
+        }
+
+        /// <summary>
+        /// 返回玩家操作牌
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="playerid"></param>
+        /// <returns></returns>
+        public static int GetNum(int id, int playerid)
+        {
+            var room = Room.FindRoom(id);
+
+            if (room != null)
+            {
+                int p = room.Num[playerid];
+
+                room.ModifyLocked(() =>
+                {
+                    for (int i = 0; i < room.MaxPlayerLe; i++)
+                    {
+                        room.Num[i] = -1;
+                    }
+                });
+
+                return p;
+
+            }
+
+            return -1;
+        }
+
+        /// <summary>
+        /// 获取打牌玩家id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static int GetPlayerId(int id)
+        {
+            var room = Room.FindRoom(id);
+
+            if (room != null)
+            {
+                int target = room.target;
+
+                int le = 0;
+                int pos = (target + 1) % room.MaxPlayerLe;
+
+                room.ModifyLocked(() =>
+                {
+
+                    for (int i = 0; i < room.MaxPlayerLe; i++)
+                    {
+                        target = (target + 1) % room.MaxPlayerLe;
+                        if (room.Level[target] != -1)
+                        {
+                            if (le < room.Level[target])
+                            {
+                                le = room.Level[target];
+                                pos = target;
+                            }
+                        }
+                        else
+                        {
+                            pos = -1;
+                            break;
+                        }
+                    }
+
+                    if (pos != -1)
+                    {
+                        room.target = pos;
+                    }
+
+                });
+
+                return pos;
+
+            }
+
+            return -1;
+        }
+
+        public static void GameInit(int id)
+        {
+            var room = Room.FindRoom(id);
+
+            if (room != null)
+            {
+                InitGame(id, 136);
             }
         }
 

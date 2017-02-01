@@ -1,0 +1,298 @@
+Time:2017-01-26 21:31:44:030-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:31:58:896-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:32:04:804-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:32:11:473-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:32:13:554-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:32:14:542-Trace>>Action2004 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.Room.Room.getId(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 251
+   在 GameServer.CsScript.Action.Action2004.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs:行号 40
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d16%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2004%26roomID%3d2%26roomName%3dccc%26sign%3dc25d9970189930d453d4e8b584dd922a, Uid:0, Pid:
+Host:127.0.0.1:61321
+
+
+Time:2017-01-26 21:32:15:085-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:32:24:847-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2017-01-26 21:34:21:837-Trace>>Action2000 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“3wa2kvm4, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\3wa2kvm4.dll”位置处)。类型 B 源自“b1knnh1c, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\b1knnh1c.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.LeaveRoom(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 71
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 65
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d13%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26roomName%3d%26playerName%3dccc%26roomOperation%3d2%26sign%3d780a4b3d199fab77fbd898ee36617970, Uid:0, Pid:
+Host:127.0.0.1:61415
+
+
+Time:2017-01-26 21:34:22:834-Trace>>Action2000 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“3wa2kvm4, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\3wa2kvm4.dll”位置处)。类型 B 源自“b1knnh1c, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\b1knnh1c.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.LeaveRoom(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 71
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 65
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d13%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26roomName%3d%26playerName%3dccc%26roomOperation%3d2%26sign%3d780a4b3d199fab77fbd898ee36617970, Uid:0, Pid:
+Host:127.0.0.1:61417
+
+
+Time:2017-01-26 21:34:23:684-Trace>>Action2000 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“3wa2kvm4, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\3wa2kvm4.dll”位置处)。类型 B 源自“b1knnh1c, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\b1knnh1c.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.LeaveRoom(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 71
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 65
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d13%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d2%26roomName%3d%26playerName%3dccc%26roomOperation%3d2%26sign%3d780a4b3d199fab77fbd898ee36617970, Uid:0, Pid:
+Host:127.0.0.1:61418
+
+
+Time:2017-01-26 21:35:07:253-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:35:12:818-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:35:16:861-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:35:18:939-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:35:19:939-Trace>>Action2004 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.Room.Room.getId(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 253
+   在 GameServer.CsScript.Action.Action2004.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs:行号 40
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d16%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2004%26roomID%3d1%26roomName%3dasd%26sign%3dfdd2a13c42f385099cba8db1e24202dc, Uid:0, Pid:
+Host:127.0.0.1:61492
+
+
+Time:2017-01-26 21:35:20:471-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:35:44:491-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 21:35:45:086-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:35:46:065-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:35:47:050-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:37:47:908-Trace>>Action2000 error:System.InvalidCastException: [A]MahjongServer.Script.CsScript.Room.RoomCache 无法强制转换为 [B]MahjongServer.Script.CsScript.Room.RoomCache。类型 A 源自“o3b3pcwe, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\o3b3pcwe.dll”位置处)。类型 B 源自“ntuzl3ev, Version=1.0.0.3, Culture=neutral, PublicKeyToken=null”(在上下文“Default”中的“D:\work\VS2015 File\MahjongServer\MahjongServer\temp\ntuzl3ev.dll”位置处)。
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetCacheItem[TValue](String groupKey, Boolean isAutoLoad, TValue& itemData, LoadingStatus& loadStatus)
+   在 ZyGames.Framework.Cache.Generic.EntityContainer`1.TryGetEntity(String entityKey, T& entityData)
+   在 ZyGames.Framework.Cache.Generic.ShareCacheStruct`1.FindKey(Object[] keys)
+   在 MahjongServer.Script.CsScript.Room.Room.LeaveRoom(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 71
+   在 GameServer.CsScript.Action.Action2000.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs:行号 65
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d13%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2000%26roomID%3d1%26roomName%3d%26playerName%3dhhh%26roomOperation%3d2%26sign%3d6ead17e2876a145ea1e4af879a2b3318, Uid:0, Pid:
+Host:127.0.0.1:61614
+
+
+Time:2017-01-26 21:37:57:376-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 21:38:08:408-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:38:21:519-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:38:45:217-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2017-01-26 21:39:05:886-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:39:17:690-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:39:33:444-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-26 21:39:39:132-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-26 21:39:45:158-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2,MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2,MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2017-01-26 21:39:45:677-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-26 21:39:45:785-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-26 21:39:47:752-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-26 21:39:48:804-Trace>>Action2004 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.Room.Room.getId(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 253
+   在 GameServer.CsScript.Action.Action2004.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs:行号 40
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d16%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2004%26roomID%3d3%26roomName%3dPlayer5%26sign%3d414203fe4900a17ee385525c42bfdc3b, Uid:0, Pid:
+Host:127.0.0.1:61762
+
+
+Time:2017-01-26 21:39:49:285-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-26 21:39:49:398-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-26 21:41:47:797-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:41:52:488-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:41:59:052-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:41:59:161-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:42:01:129-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:42:02:184-Trace>>Action2004 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.Room.Room.getId(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 253
+   在 GameServer.CsScript.Action.Action2004.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs:行号 40
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d16%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2004%26roomID%3d1%26roomName%3dPlayer3%26sign%3d68bbbbcd7003b28480bd1dc099923251, Uid:0, Pid:
+Host:127.0.0.1:61880
+
+
+Time:2017-01-26 21:42:02:661-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:42:25:035-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 21:43:00:847-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:43:01:834-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:43:02:816-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:43:35:528-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:43:39:679-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:43:44:054-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:43:46:132-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:43:47:147-Trace>>Action2004 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.Room.Room.getId(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 253
+   在 GameServer.CsScript.Action.Action2004.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs:行号 40
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d16%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2004%26roomID%3d1%26playerName%3dPlayer3%26sign%3d051de625840e0d7c22c60792cf0ac453, Uid:0, Pid:
+Host:127.0.0.1:61995
+
+
+Time:2017-01-26 21:43:47:659-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:44:12:658-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 21:44:54:584-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:44:55:575-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:44:56:441-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:45:31:094-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:45:35:675-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:45:40:272-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:45:42:352-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:45:43:349-Trace>>Action2004 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.Room.Room.getId(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 253
+   在 GameServer.CsScript.Action.Action2004.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs:行号 40
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d16%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2004%26roomID%3d1%26playerName%3dPlayer3%26sign%3d051de625840e0d7c22c60792cf0ac453, Uid:0, Pid:
+Host:127.0.0.1:62105
+
+
+Time:2017-01-26 21:45:43:878-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:49:31:261-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-26 21:49:51:168-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-26 21:50:07:986-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:50:12:693-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:50:17:943-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:50:18:051-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:50:20:128-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:50:21:074-Trace>>Action2004 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.Room.Room.getId(Int32 id, String playerName) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs:行号 254
+   在 GameServer.CsScript.Action.Action2004.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2004.cs:行号 40
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d16%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2004%26roomID%3d2%26playerName%3dPlayer4%26sign%3d237926c016a13b885817ea0260d604c1, Uid:0, Pid:
+Host:127.0.0.1:62365
+
+
+Time:2017-01-26 21:50:21:548-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-26 21:50:31:211-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_1,MahjongServer.Script.CsScript.Room.RoomCache_2
+
+

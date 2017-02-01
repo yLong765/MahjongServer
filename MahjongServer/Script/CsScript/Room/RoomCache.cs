@@ -23,6 +23,8 @@ namespace MahjongServer.Script.CsScript.Room
             target = 0;
             Brands = new CacheList<int>();
             players = new CacheList<playerData>();
+            Level = new CacheList<int>() { -1, -1, -1, -1 };
+            Num = new CacheList<int>();
             BrandNum = 0;
             MaxBrandNum = 0;
             size = 1;
@@ -93,6 +95,18 @@ namespace MahjongServer.Script.CsScript.Room
         [EntityField]
         public string name { get; set; }
 
+        [ProtoMember(11)]
+        [EntityField]
+        public CacheList<int> Level { get; set; }
+
+        [ProtoMember(12)]
+        [EntityField]
+        public CacheList<int> Num { get; set; }
+
+        [ProtoMember(13)]
+        [EntityField]
+        public int StartNum { get; set; }
+
     }
 
     [ProtoContract]
@@ -103,7 +117,7 @@ namespace MahjongServer.Script.CsScript.Room
         public string sessionid { get; set; }
 
         [ProtoMember(2)]
-        public bool isReady { get; set; }
+        public string Name { get; set; }
 
     }
 

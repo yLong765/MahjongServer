@@ -1,0 +1,21 @@
+Time:2017-01-30 20:41:47:473-Redis write queue start init...
+
+
+Time:2017-01-30 20:41:47:477-Sql wait write queue start init...
+
+
+Time:2017-01-30 20:41:47:480-Sql write queue start init...
+
+
+Time:2017-01-30 20:41:47:906-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-01-30 20:41:48:188-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-01-30 20:42:47:906-Trace>>Socket connect status: TotalCount=0, CurrentCount=0, CloseCount=0, RejectedCount=0
+
+
+Time:2017-01-30 20:42:48:201-Trace>>Socket connect status: TotalCount=4, CurrentCount=4, CloseCount=0, RejectedCount=0
+
+

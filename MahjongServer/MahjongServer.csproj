@@ -107,10 +107,15 @@
     <Compile Include="Script\CsScript\Action\Action2000.cs" />
     <Compile Include="Script\CsScript\Action\Action2001.cs" />
     <Compile Include="Script\CsScript\Action\Action2002.cs" />
+    <Compile Include="Script\CsScript\Action\Action2003.cs" />
+    <Compile Include="Script\CsScript\Action\Action2004.cs" />
+    <Compile Include="Script\CsScript\Action\Action2007.cs" />
     <Compile Include="Script\CsScript\Action\Action3000.cs" />
     <Compile Include="Script\CsScript\Action\Action3001.cs" />
     <Compile Include="Script\CsScript\Action\Action2005.cs" />
     <Compile Include="Script\CsScript\Action\Action2006.cs" />
+    <Compile Include="Script\CsScript\Action\Action3002.cs" />
+    <Compile Include="Script\CsScript\Action\Action3003.cs" />
     <Compile Include="Script\CsScript\GameSetting\GameSetting.cs" />
     <Compile Include="Script\CsScript\Logic\GameLogic.cs" />
     <Compile Include="Script\CsScript\Locale\SimplifiedLanguage.cs" />

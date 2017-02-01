@@ -36,7 +36,7 @@ namespace GameServer.CsScript.Action
             }
             else
             {
-                PushIntoStack(0);
+                PushIntoStack(1);
             }
         }
 

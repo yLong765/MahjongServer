@@ -1,0 +1,90 @@
+Time:2017-01-26 17:25:20:892-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 17:25:20:956-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.IO.IOException: 文件“protobuf-net.DLL”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-01-26 17:25:30:315-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 17:25:50:907-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 17:25:55:829-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-26 17:26:02:396-Trace>>OnEntitySyncQueue execute count:1, success:0/total 4, fail:3 start...
+
+
+Time:2017-01-26 17:26:02:503-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:4 start...
+
+
+Time:2017-01-26 17:26:04:578-Trace>>OnEntitySyncQueue execute count:1, success:0/total 7, fail:5 start...
+
+
+Time:2017-01-26 17:26:06:000-Trace>>OnEntitySyncQueue execute count:1, success:0/total 14, fail:6 start...
+
+
+Time:2017-01-26 17:26:06:113-Trace>>OnEntitySyncQueue execute count:1, success:0/total 20, fail:7 start...
+
+
+Time:2017-01-26 17:27:12:616-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 17:27:12:666-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.IO.IOException: 文件“ZyGames.Framework.Game.DLL”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-01-26 17:27:36:640-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 17:27:41:451-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 17:27:48:675-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-26 17:27:48:782-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:3 start...
+
+
+Time:2017-01-26 17:27:50:751-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:4 start...
+
+
+Time:2017-01-26 17:27:52:284-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:5 start...
+
+
+Time:2017-01-26 17:27:52:393-Trace>>OnEntitySyncQueue execute count:1, success:0/total 19, fail:6 start...
+
+
+Time:2017-01-26 17:32:49:788-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 17:33:18:360-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 17:33:23:392-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 17:33:27:983-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:2 start...
+
+
+Time:2017-01-26 17:33:30:062-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:3 start...
+
+
+Time:2017-01-26 17:33:31:597-Trace>>OnEntitySyncQueue execute count:1, success:0/total 19, fail:4 start...
+
+
+Time:2017-01-26 17:42:59:722-Trace>>OnEntitySyncQueue execute count:1, success:0/total 20, fail:5 start...
+
+
+Time:2017-01-26 17:43:00:703-Trace>>OnEntitySyncQueue execute count:1, success:0/total 21, fail:6 start...
+
+
+Time:2017-01-26 17:43:01:691-Trace>>OnEntitySyncQueue execute count:1, success:0/total 22, fail:7 start...
+
+

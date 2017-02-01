@@ -14,7 +14,7 @@ namespace GameServer.CsScript.Action
     class Action3000 : BaseStruct
     {
         private int brand;
-        private int brandPos;
+        private int playerid;
 
         public Action3000(HttpGet httpGet) : base(3000, httpGet)
         {
@@ -23,19 +23,20 @@ namespace GameServer.CsScript.Action
         public override bool GetUrlElement()
         {
             httpGet.GetInt("brand", ref brand);
-            httpGet.GetInt("brandPos", ref brandPos);
+            httpGet.GetInt("playerid", ref playerid);
             return true;
         }
 
         public override void BuildPacket()
         {
             PushIntoStack(brand);
-            PushIntoStack(brandPos);
+            PushIntoStack(playerid);
         }
 
         public override bool TakeAction()
         {
-            return false;
+
+            return true;
         }
     }
 }

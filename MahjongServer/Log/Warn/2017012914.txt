@@ -1,0 +1,51 @@
+Time:2017-01-29 14:04:17:341-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-29 14:04:17:392-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.IO.IOException: 文件“ZyGames.Framework.Game.DLL”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-01-29 14:04:43:800-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-29 14:04:47:849-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-29 14:04:55:283-Trace>>OnEntitySyncQueue execute count:1, success:0/total 9, fail:2 start...
+
+
+Time:2017-01-29 14:04:55:391-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:3 start...
+
+
+Time:2017-01-29 14:04:57:908-Trace>>OnEntitySyncQueue execute count:1, success:0/total 50, fail:4 start...
+
+
+Time:2017-01-29 14:04:58:017-Trace>>OnEntitySyncQueue execute count:1, success:0/total 63, fail:5 start...
+
+
+Time:2017-01-29 14:04:59:110-Trace>>OnEntitySyncQueue execute count:1, success:0/total 64, fail:6 start...
+
+
+Time:2017-01-29 14:09:28:690-Trace>>OnEntitySyncQueue execute count:1, success:0/total 65, fail:7 start...
+
+
+Time:2017-01-29 14:09:32:738-Trace>>OnEntitySyncQueue execute count:1, success:0/total 66, fail:8 start...
+
+
+Time:2017-01-29 14:09:37:331-Trace>>OnEntitySyncQueue execute count:1, success:0/total 67, fail:9 start...
+
+
+Time:2017-01-29 14:09:37:438-Trace>>OnEntitySyncQueue execute count:1, success:0/total 75, fail:10 start...
+
+
+Time:2017-01-29 14:09:39:958-Trace>>OnEntitySyncQueue execute count:1, success:0/total 114, fail:11 start...
+
+
+Time:2017-01-29 14:09:40:066-Trace>>OnEntitySyncQueue execute count:1, success:0/total 127, fail:12 start...
+
+
+Time:2017-01-29 14:09:41:052-Trace>>OnEntitySyncQueue execute count:1, success:0/total 128, fail:13 start...
+
+

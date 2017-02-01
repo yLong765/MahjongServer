@@ -15,7 +15,6 @@ namespace GameServer.CsScript.Action
     class Action2001 : BaseStruct
     {
         private int brand;
-        private int bO;
         private int roomID;
 
         public Action2001(HttpGet httpGet) : base(2001, httpGet)
@@ -25,7 +24,6 @@ namespace GameServer.CsScript.Action
         public override bool GetUrlElement()
         {
             httpGet.GetInt("roomID", ref roomID);
-            httpGet.GetInt("BrandOperation", ref bO);
             return true;
         }
 
@@ -36,31 +34,10 @@ namespace GameServer.CsScript.Action
 
         public override bool TakeAction()
         {
-            switch (bO)
-            {
-                case (int)OperationCode.GetBrand:
-                    brand = GameLogic.GetBrand(roomID);
-                    break;
-
-                case (int)OperationCode.Ready:
-                    GameLogic.PlayerReady(roomID, Current.SessionId);
-                    break;
-            }
+            brand = GameLogic.GetBrand(roomID);
             return true;
         }
 
     }
 
-    enum OperationCode
-    {
-        /// <summary>
-        /// 获取牌
-        /// </summary>
-        GetBrand = 1,
-
-        /// <summary>
-        /// 玩家准备
-        /// </summary>
-        Ready = 2,
-    }
 }

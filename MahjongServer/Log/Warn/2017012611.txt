@@ -1,0 +1,219 @@
+Time:2017-01-26 11:11:21:448-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 11:11:39:879-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 11:12:18:158-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 11:12:24:392-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-26 11:12:34:347-Trace>>OnEntitySyncQueue execute count:1, success:0/total 4, fail:3 start...
+
+
+Time:2017-01-26 11:12:55:675-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:4 start...
+
+
+Time:2017-01-26 11:13:00:920-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:5 start...
+
+
+Time:2017-01-26 11:13:04:858-Trace>>OnEntitySyncQueue execute count:1, success:0/total 7, fail:6 start...
+
+
+Time:2017-01-26 11:13:07:920-Trace>>OnEntitySyncQueue execute count:1, success:0/total 8, fail:7 start...
+
+
+Time:2017-01-26 11:17:11:006-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 11:17:31:408-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 11:17:36:646-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 11:17:41:783-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-26 11:18:01:254-Trace>>OnEntitySyncQueue execute count:1, success:0/total 4, fail:3 start...
+
+
+Time:2017-01-26 11:18:42:485-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:4 start...
+
+
+Time:2017-01-26 11:18:43:911-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:5 start...
+
+
+Time:2017-01-26 11:18:45:878-Trace>>OnEntitySyncQueue execute count:1, success:0/total 7, fail:6 start...
+
+
+Time:2017-01-26 11:19:07:096-Trace>>OnEntitySyncQueue execute count:1, success:0/total 8, fail:7 start...
+
+
+Time:2017-01-26 11:19:29:521-Trace>>OnEntitySyncQueue execute count:1, success:0/total 9, fail:8 start...
+
+
+Time:2017-01-26 11:19:34:986-Trace>>OnEntitySyncQueue execute count:1, success:0/total 10, fail:9 start...
+
+
+Time:2017-01-26 11:21:42:613-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:10 start...
+
+
+Time:2017-01-26 11:21:45:566-Trace>>OnEntitySyncQueue execute count:1, success:0/total 12, fail:11 start...
+
+
+Time:2017-01-26 11:21:47:202-Trace>>OnEntitySyncQueue execute count:1, success:0/total 13, fail:12 start...
+
+
+Time:2017-01-26 11:21:48:189-Trace>>OnEntitySyncQueue execute count:1, success:0/total 14, fail:13 start...
+
+
+Time:2017-01-26 11:23:12:254-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 11:23:12:312-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.IO.IOException: 文件“__AssemblyInfo__.ini”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-01-26 11:23:20:593-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 11:23:38:922-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 11:23:44:068-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-26 11:23:50:295-Trace>>OnEntitySyncQueue execute count:1, success:0/total 4, fail:3 start...
+
+
+Time:2017-01-26 11:23:50:408-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:4 start...
+
+
+Time:2017-01-26 11:23:52:469-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:5 start...
+
+
+Time:2017-01-26 11:26:24:752-Trace>>OnEntitySyncQueue execute count:1, success:0/total 7, fail:6 start...
+
+
+Time:2017-01-26 11:27:00:969-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 11:27:23:004-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 11:27:29:347-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 11:27:34:483-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-26 11:27:34:597-Trace>>OnEntitySyncQueue execute count:1, success:0/total 4, fail:3 start...
+
+
+Time:2017-01-26 11:27:36:671-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:4 start...
+
+
+Time:2017-01-26 11:30:27:265-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 11:30:59:186-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 11:31:04:987-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 11:31:12:206-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:2 start...
+
+
+Time:2017-01-26 11:31:14:286-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:3 start...
+
+
+Time:2017-01-26 11:31:15:815-Trace>>OnEntitySyncQueue execute count:1, success:0/total 19, fail:4 start...
+
+
+Time:2017-01-26 11:31:18:437-Trace>>OnEntitySyncQueue execute count:1, success:0/total 23, fail:5 start...
+
+
+Time:2017-01-26 11:31:20:520-Trace>>OnEntitySyncQueue execute count:1, success:0/total 24, fail:6 start...
+
+
+Time:2017-01-26 11:31:22:045-Trace>>OnEntitySyncQueue execute count:1, success:0/total 37, fail:7 start...
+
+
+Time:2017-01-26 11:31:24:128-Trace>>OnEntitySyncQueue execute count:1, success:0/total 43, fail:8 start...
+
+
+Time:2017-01-26 11:31:26:202-Trace>>OnEntitySyncQueue execute count:1, success:0/total 44, fail:9 start...
+
+
+Time:2017-01-26 11:31:27:843-Trace>>OnEntitySyncQueue execute count:1, success:0/total 57, fail:10 start...
+
+
+Time:2017-01-26 11:31:28:281-Trace>>OnEntitySyncQueue execute count:1, success:0/total 65, fail:11 start...
+
+
+Time:2017-01-26 11:31:30:347-Trace>>OnEntitySyncQueue execute count:1, success:0/total 66, fail:12 start...
+
+
+Time:2017-01-26 11:31:31:984-Trace>>OnEntitySyncQueue execute count:1, success:0/total 79, fail:13 start...
+
+
+Time:2017-01-26 11:37:53:717-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 11:38:07:736-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 11:38:24:016-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 11:38:29:156-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-26 11:38:34:296-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:3 start...
+
+
+Time:2017-01-26 11:38:36:379-Trace>>OnEntitySyncQueue execute count:1, success:0/total 7, fail:4 start...
+
+
+Time:2017-01-26 11:38:37:904-Trace>>OnEntitySyncQueue execute count:1, success:0/total 20, fail:5 start...
+
+
+Time:2017-01-26 11:39:01:188-Trace>>OnEntitySyncQueue execute count:1, success:0/total 21, fail:6 start...
+
+
+Time:2017-01-26 11:39:02:279-Trace>>OnEntitySyncQueue execute count:1, success:0/total 22, fail:7 start...
+
+
+Time:2017-01-26 11:39:03:378-Trace>>OnEntitySyncQueue execute count:1, success:0/total 23, fail:8 start...
+
+
+Time:2017-01-26 11:43:28:940-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-26 11:43:28:989-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.IO.IOException: 文件“__AssemblyInfo__.ini”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-01-26 11:43:52:814-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-26 11:43:57:847-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-26 11:44:02:110-Trace>>OnEntitySyncQueue execute count:1, success:0/total 5, fail:2 start...
+
+
+Time:2017-01-26 11:44:04:185-Trace>>OnEntitySyncQueue execute count:1, success:0/total 6, fail:3 start...
+
+
+Time:2017-01-26 11:44:05:723-Trace>>OnEntitySyncQueue execute count:1, success:0/total 19, fail:4 start...
+
+

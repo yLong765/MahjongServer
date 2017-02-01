@@ -1,0 +1,259 @@
+Time:2017-01-29 21:27:55:480-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:27:58:536-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:28:01:380-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:28:01:487-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:28:04:004-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:28:04:114-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:28:10:941-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-29 21:29:37:940-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:29:40:896-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:29:50:300-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:29:50:408-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:29:52:926-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:29:53:035-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:29:54:131-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:30:10:922-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2017-01-29 21:33:36:019-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:33:38:427-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:33:40:613-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:33:43:238-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:33:43:345-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:33:44:333-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:34:10:942-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2017-01-29 21:37:03:827-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|4 faild object is null.
+
+
+Time:2017-01-29 21:37:07:223-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|4 faild object is null.
+
+
+Time:2017-01-29 21:37:10:953-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_4
+error:MahjongServer.Script.CsScript.Room.RoomCache_4
+
+
+Time:2017-01-29 21:37:15:423-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|4 faild object is null.
+
+
+Time:2017-01-29 21:37:18:047-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|4 faild object is null.
+
+
+Time:2017-01-29 21:37:18:162-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|4 faild object is null.
+
+
+Time:2017-01-29 21:37:19:255-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|4 faild object is null.
+
+
+Time:2017-01-29 21:41:24:118-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:27:171-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:29:800-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:29:910-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:32:424-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:32:532-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:32:647-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:33:631-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:56:382-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:56:386-Trace>>Action2003 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.<>c__DisplayClass10.<SetLevel>b__e() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 141
+   在 ZyGames.Framework.Event.EntityChangeEvent.ModifyLocked(Action action)
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.SetLevel(Int32 id, Int32 playerid, Int32 level) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 139
+   在 GameServer.CsScript.Action.Action2003.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2003.cs:行号 37
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d32%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2003%26roomID%3d1%26playerId%3d3%26num%3d0%26level%3d0%26sign%3d6d123c72eac453dcc5bd62eec1d47c5e, Uid:0, Pid:
+Host:127.0.0.1:62935
+
+
+Time:2017-01-29 21:41:56:771-Trace>>Action2003 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.<>c__DisplayClass10.<SetLevel>b__e() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 141
+   在 ZyGames.Framework.Event.EntityChangeEvent.ModifyLocked(Action action)
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.SetLevel(Int32 id, Int32 playerid, Int32 level) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 139
+   在 GameServer.CsScript.Action.Action2003.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2003.cs:行号 37
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d33%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2003%26roomID%3d1%26playerId%3d3%26num%3d0%26level%3d0%26sign%3dee782680f36121a0809b316b15cf618b, Uid:0, Pid:
+Host:127.0.0.1:62935
+
+
+Time:2017-01-29 21:41:56:816-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:41:57:169-Trace>>Action2003 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.<>c__DisplayClass10.<SetLevel>b__e() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 141
+   在 ZyGames.Framework.Event.EntityChangeEvent.ModifyLocked(Action action)
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.SetLevel(Int32 id, Int32 playerid, Int32 level) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 139
+   在 GameServer.CsScript.Action.Action2003.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2003.cs:行号 37
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d34%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2003%26roomID%3d1%26playerId%3d3%26num%3d0%26level%3d0%26sign%3d46a135a71dfff9c16f25213a24e58539, Uid:0, Pid:
+Host:127.0.0.1:62935
+
+
+Time:2017-01-29 21:41:57:255-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:42:05:508-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-29 21:42:46:249-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:42:49:202-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:43:05:500-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_2
+error:MahjongServer.Script.CsScript.Room.RoomCache_2
+
+
+Time:2017-01-29 21:43:07:145-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:43:07:256-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:43:09:770-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:43:09:880-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:43:10:974-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|2 faild object is null.
+
+
+Time:2017-01-29 21:47:18:364-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:47:21:423-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:47:32:907-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:47:33:020-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:47:35:542-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:47:35:642-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:47:36:739-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|3 faild object is null.
+
+
+Time:2017-01-29 21:48:05:538-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_3
+error:MahjongServer.Script.CsScript.Room.RoomCache_3
+
+
+Time:2017-01-29 21:56:16:218-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:19:163-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:22:771-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:22:879-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:25:394-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:25:502-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:25:610-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:26:595-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-01-29 21:56:38:546-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-01-29 21:57:19:745-Trace>>Action2003 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.<>c__DisplayClass10.<SetLevel>b__e() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 141
+   在 ZyGames.Framework.Event.EntityChangeEvent.ModifyLocked(Action action)
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.SetLevel(Int32 id, Int32 playerid, Int32 level) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 139
+   在 GameServer.CsScript.Action.Action2003.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2003.cs:行号 37
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d28%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2003%26roomID%3d1%26playerId%3d1%26num%3d21%26level%3d0%26sign%3d3b8914f999b810be123591142bfd41e6, Uid:0, Pid:
+Host:127.0.0.1:63677
+
+
+Time:2017-01-29 21:57:19:746-Trace>>Action2003 error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.<>c__DisplayClass10.<SetLevel>b__e() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 141
+   在 ZyGames.Framework.Event.EntityChangeEvent.ModifyLocked(Action action)
+   在 MahjongServer.Script.CsScript.GameLogic.GameLogic.SetLevel(Int32 id, Int32 playerid, Int32 level) 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Logic\GameLogic.cs:行号 139
+   在 GameServer.CsScript.Action.Action2003.TakeAction() 位置 d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2003.cs:行号 37
+   在 ZyGames.Framework.Game.Service.BaseStruct.DoAction().
+Url:?d=MsgId%3d28%26Sid%3d%26Uid%3d0%26St%3d%26actionId%3d2003%26roomID%3d1%26playerId%3d0%26num%3d21%26level%3d0%26sign%3d1dfbc5b9f062b421a56a7340b9da41a5, Uid:0, Pid:
+Host:127.0.0.1:63657
+
+
+Time:2017-01-29 21:57:19:828-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+

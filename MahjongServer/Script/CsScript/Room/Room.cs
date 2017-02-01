@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using ZyGames.Framework.Cache.Generic;
 using ZyGames.Framework.Game.Contract;
 
@@ -17,7 +18,7 @@ namespace MahjongServer.Script.CsScript.Room
         /// <param name="id">房间ID</param>
         /// <param name="userID">玩家ID</param>
         /// <returns>是否成功加入信息</returns>
-        public static bool JoinRoom(int id, string sid, string name)
+        public static bool JoinRoom(int id, string sid, string name, string playerName)
         {
             var cache = new ShareCacheStruct<RoomCache>();
             var room = cache.FindKey(id);
@@ -26,7 +27,7 @@ namespace MahjongServer.Script.CsScript.Room
             if (room == null)
             {
                 room = new RoomCache(id, RoomType.FourPeople, name);
-                room.players.Insert(0, new playerData() { sessionid = sid, isReady = false });
+                room.players.Insert(0, new playerData() { sessionid = sid,  Name = playerName });
 
                 if (cache.AddOrUpdate(room))
                 {
@@ -48,7 +49,7 @@ namespace MahjongServer.Script.CsScript.Room
                     {
                         if (room.players[i] == null)
                         {
-                            room.players.Insert(i, new playerData() { sessionid = sid, isReady = false });
+                            room.players.Insert(i, new playerData() { sessionid = sid, Name = playerName });
                             room.size++;
                             break;
                         }
@@ -64,7 +65,7 @@ namespace MahjongServer.Script.CsScript.Room
         /// </summary>
         /// <param name="id">房间ID</param>
         /// <param name="sid">玩家session</param>
-        public static bool LeaveRoom(int id, string sid)
+        public static bool LeaveRoom(int id, string playerName)
         {
             var cache = new ShareCacheStruct<RoomCache>();
             var room = cache.FindKey(id);
@@ -76,7 +77,7 @@ namespace MahjongServer.Script.CsScript.Room
                     for (int i = 0; i < room.MaxPlayerLe; i++)
                     {
                         if (room.players[i] != null &&
-                            room.players[i].sessionid == sid)
+                            room.players[i].Name == playerName)
                         {
                             room.players.RemoveAt(i);
                             room.size--;
@@ -84,12 +85,12 @@ namespace MahjongServer.Script.CsScript.Room
                         }
                     }
                 });
-                Console.WriteLine("Leave Room " + id + "Ok");
+                Console.WriteLine("Leave Room " + id + " Ok");
                 return true;
             }
             else
             {
-                Console.WriteLine("Leave Room " + id + "Fail");
+                Console.WriteLine("Leave Room " + id + " Fail");
                 return false;
             }
             
@@ -165,6 +166,11 @@ namespace MahjongServer.Script.CsScript.Room
             }
         }
 
+        /// <summary>
+        /// 获取房间玩家sessionid
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static string[] getStringSessionsOfRoom(int id)
         {
             var room = FindRoom(id);
@@ -185,48 +191,6 @@ namespace MahjongServer.Script.CsScript.Room
             {
                 Console.WriteLine("房间不存在，获取玩家ID错误");
                 return null;
-            }
-        }
-
-        /// <summary>
-        /// 玩家准备，如果全部准备则返回真
-        /// </summary>
-        /// <param name="id">房间id</param>
-        /// <param name="session">玩家sessionid</param>
-        /// <returns>是否全部准备</returns>
-        public static bool PlayerReady(int id, string session)
-        {
-            var room = FindRoom(id);
-
-            if (room != null)
-            {
-                bool isBegin = true;
-
-                    for (int i = 0; i < 4; i++)
-                    {
-                        if (room.players[id] != null)
-                        {
-                            if (room.players[id].sessionid == session)
-                            {
-                                room.players[id].isReady = true;
-                                Console.WriteLine(session + " 准备");
-                            }
-                            if (!room.players[id].isReady)
-                            {
-                                isBegin = false;
-                            }
-                        }
-                        else
-                        {
-                            isBegin = false;
-                        }
-                    }
-                return isBegin;
-            }
-            else
-            {
-                Console.WriteLine("Not Found Room " + id);
-                return false;
             }
         }
 
@@ -268,6 +232,63 @@ namespace MahjongServer.Script.CsScript.Room
                 Console.WriteLine("获取房间人数失败：房间不存在");
                 return 0;
             }
+        }
+
+        /// <summary>
+        /// 获取玩家id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="session"></param>
+        /// <returns></returns>
+        public static int getId(int id, string playerName)
+        {
+            var room = FindRoom(id);
+
+            if (room != null)
+            {
+                for (int i = 0; i < room.MaxPlayerLe; i++)
+                {
+                    if (playerName.Equals(room.players[i].Name))
+                    {
+                        return i;
+                    }
+                }
+            }
+
+            return -1;
+        }
+
+        public static int getTarget(int id)
+        {
+            var room = FindRoom(id);
+
+            if (room != null)
+            {
+                return room.target;
+            }
+
+            return -1;
+        }
+
+        public static int getStartName(int id)
+        {
+            var room = FindRoom(id);
+
+            if (room != null)
+            {
+                return room.StartNum;
+            }
+            return -1;
+        }
+
+        private static int playerBuildID = 0;
+
+        public static string buildName()
+        {
+            string Sid = "Player";
+            Sid += playerBuildID;
+            playerBuildID++;
+            return Sid;
         }
 
     }

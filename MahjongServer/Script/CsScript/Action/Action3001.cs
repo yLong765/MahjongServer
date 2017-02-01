@@ -30,6 +30,7 @@ namespace GameServer.CsScript.Action
                 Console.WriteLine(sessions[i]);
                 PushIntoStack(sessions[i]);
             }
+
             PushIntoStack(roomName);
  
         }

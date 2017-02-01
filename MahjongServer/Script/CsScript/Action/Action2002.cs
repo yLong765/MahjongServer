@@ -1,4 +1,5 @@
-﻿using MahjongServer.Script.CsScript.Room;
+﻿using MahjongServer.Script.CsScript.GameLogic;
+using MahjongServer.Script.CsScript.Room;
 using System;
 using System.Collections.Generic;
 using ZyGames.Framework.Game.Contract;
@@ -16,7 +17,7 @@ namespace GameServer.CsScript.Action
     {
         private int roomID;
         private int brand;
-        private int brandPos;
+        private int playerId;
 
         public Action2002(HttpGet httpGet) : base(2002, httpGet)
         {
@@ -26,39 +27,27 @@ namespace GameServer.CsScript.Action
         {
             httpGet.GetInt("roomID", ref roomID);
             httpGet.GetInt("brand", ref brand);
-            httpGet.GetInt("brandPos", ref brandPos);
+            httpGet.GetInt("playerId", ref playerId);
             return true;
         }
 
         public override bool TakeAction()
         {
-            Console.WriteLine(RadioSession(roomID));
+            RadioSession(roomID);
             return true;
         }
 
-        private string RadioSession(int id)
+        private void RadioSession(int id)
         {
-            string str = "Error";
-
             List<GameSession> sessionList = Room.getSessionsOfRoom(id);
             var parameters = new Parameters();
             parameters["brand"] = brand;
-            parameters["brandPos"] = brandPos;
+            parameters["playerId"] = playerId;
 
             ActionFactory.SendAction(sessionList, 3000, parameters, (session, asyncResult) =>
             {
-                str = string.Format("Action 3000 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail");
+                Console.WriteLine(string.Format("Action 3000 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail"));
             }, httpGet.OpCode, 0);
-
-            return str;
-        }
-
-        enum RadioOperation
-        {
-            /// <summary>
-            /// 广播牌
-            /// </summary>
-            rBrand = 1,
         }
 
     }

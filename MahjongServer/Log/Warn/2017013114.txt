@@ -1,0 +1,177 @@
+Time:2017-01-31 14:39:00:561-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-31 14:39:00:612-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.UnauthorizedAccessException: 对路径“Microsoft.Scripting.DLL”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-01-31 14:39:01:031-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\temp error:System.UnauthorizedAccessException: 对路径“odtwpbai.dll”的访问被拒绝。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-01-31 14:39:46:792-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-31 14:39:49:415-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-31 14:39:51:499-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:2 start...
+
+
+Time:2017-01-31 14:39:54:119-Trace>>OnEntitySyncQueue execute count:1, success:0/total 50, fail:3 start...
+
+
+Time:2017-01-31 14:39:54:227-Trace>>OnEntitySyncQueue execute count:1, success:0/total 63, fail:4 start...
+
+
+Time:2017-01-31 14:39:55:106-Trace>>OnEntitySyncQueue execute count:1, success:0/total 64, fail:5 start...
+
+
+Time:2017-01-31 14:40:05:273-Trace>>OnEntitySyncQueue execute count:1, success:0/total 76, fail:6 start...
+
+
+Time:2017-01-31 14:40:05:382-Trace>>OnEntitySyncQueue execute count:1, success:0/total 77, fail:7 start...
+
+
+Time:2017-01-31 14:40:14:140-Trace>>OnEntitySyncQueue execute count:1, success:0/total 89, fail:8 start...
+
+
+Time:2017-01-31 14:40:14:247-Trace>>OnEntitySyncQueue execute count:1, success:0/total 90, fail:9 start...
+
+
+Time:2017-01-31 14:40:21:352-Trace>>OnEntitySyncQueue execute count:1, success:0/total 102, fail:10 start...
+
+
+Time:2017-01-31 14:40:21:467-Trace>>OnEntitySyncQueue execute count:1, success:0/total 103, fail:11 start...
+
+
+Time:2017-01-31 14:40:26:166-Trace>>OnEntitySyncQueue execute count:1, success:0/total 115, fail:12 start...
+
+
+Time:2017-01-31 14:40:26:273-Trace>>OnEntitySyncQueue execute count:1, success:0/total 116, fail:13 start...
+
+
+Time:2017-01-31 14:40:32:403-Trace>>OnEntitySyncQueue execute count:1, success:0/total 125, fail:14 start...
+
+
+Time:2017-01-31 14:40:51:103-Trace>>OnEntitySyncQueue execute count:1, success:0/total 128, fail:15 start...
+
+
+Time:2017-01-31 14:40:51:213-Trace>>OnEntitySyncQueue execute count:1, success:0/total 129, fail:16 start...
+
+
+Time:2017-01-31 14:40:54:934-Trace>>OnEntitySyncQueue execute count:1, success:0/total 135, fail:17 start...
+
+
+Time:2017-01-31 14:40:57:449-Trace>>OnEntitySyncQueue execute count:1, success:0/total 138, fail:18 start...
+
+
+Time:2017-01-31 14:40:58:763-Trace>>OnEntitySyncQueue execute count:1, success:0/total 142, fail:19 start...
+
+
+Time:2017-01-31 14:41:04:667-Trace>>OnEntitySyncQueue execute count:1, success:0/total 151, fail:20 start...
+
+
+Time:2017-01-31 14:41:23:262-Trace>>OnEntitySyncQueue execute count:1, success:0/total 154, fail:21 start...
+
+
+Time:2017-01-31 14:41:23:370-Trace>>OnEntitySyncQueue execute count:1, success:0/total 155, fail:22 start...
+
+
+Time:2017-01-31 14:42:46:023-Trace>>OnEntitySyncQueue execute count:1, success:0/total 158, fail:23 start...
+
+
+Time:2017-01-31 14:42:46:132-Trace>>OnEntitySyncQueue execute count:1, success:0/total 161, fail:24 start...
+
+
+Time:2017-01-31 14:42:54:575-Trace>>OnEntitySyncQueue execute count:1, success:0/total 164, fail:25 start...
+
+
+Time:2017-01-31 14:45:33:389-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-01-31 14:45:50:563-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-01-31 14:45:53:293-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-01-31 14:45:55:589-Trace>>OnEntitySyncQueue execute count:1, success:0/total 3, fail:2 start...
+
+
+Time:2017-01-31 14:45:55:697-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:3 start...
+
+
+Time:2017-01-31 14:45:58:212-Trace>>OnEntitySyncQueue execute count:1, success:0/total 37, fail:4 start...
+
+
+Time:2017-01-31 14:45:58:325-Trace>>OnEntitySyncQueue execute count:1, success:0/total 50, fail:5 start...
+
+
+Time:2017-01-31 14:45:58:434-Trace>>OnEntitySyncQueue execute count:1, success:0/total 63, fail:6 start...
+
+
+Time:2017-01-31 14:45:59:310-Trace>>OnEntitySyncQueue execute count:1, success:0/total 64, fail:7 start...
+
+
+Time:2017-01-31 14:46:12:648-Trace>>OnEntitySyncQueue execute count:1, success:0/total 66, fail:8 start...
+
+
+Time:2017-01-31 14:46:12:762-Trace>>OnEntitySyncQueue execute count:1, success:0/total 73, fail:9 start...
+
+
+Time:2017-01-31 14:46:17:245-Trace>>OnEntitySyncQueue execute count:1, success:0/total 76, fail:10 start...
+
+
+Time:2017-01-31 14:46:17:355-Trace>>OnEntitySyncQueue execute count:1, success:0/total 77, fail:11 start...
+
+
+Time:2017-01-31 14:47:08:417-Trace>>OnEntitySyncQueue execute count:1, success:0/total 86, fail:12 start...
+
+
+Time:2017-01-31 14:50:11:587-Trace>>OnEntitySyncQueue execute count:1, success:0/total 87, fail:13 start...
+
+
+Time:2017-01-31 14:50:14:101-Trace>>OnEntitySyncQueue execute count:1, success:0/total 88, fail:14 start...
+
+
+Time:2017-01-31 14:50:16:403-Trace>>OnEntitySyncQueue execute count:1, success:0/total 89, fail:15 start...
+
+
+Time:2017-01-31 14:50:16:511-Trace>>OnEntitySyncQueue execute count:1, success:0/total 97, fail:16 start...
+
+
+Time:2017-01-31 14:50:19:027-Trace>>OnEntitySyncQueue execute count:1, success:0/total 110, fail:17 start...
+
+
+Time:2017-01-31 14:50:19:135-Trace>>OnEntitySyncQueue execute count:1, success:0/total 136, fail:18 start...
+
+
+Time:2017-01-31 14:50:19:243-Trace>>OnEntitySyncQueue execute count:1, success:0/total 149, fail:19 start...
+
+
+Time:2017-01-31 14:50:20:120-Trace>>OnEntitySyncQueue execute count:1, success:0/total 150, fail:20 start...
+
+
+Time:2017-01-31 14:50:44:389-Trace>>OnEntitySyncQueue execute count:1, success:0/total 162, fail:21 start...
+
+
+Time:2017-01-31 14:50:44:498-Trace>>OnEntitySyncQueue execute count:1, success:0/total 163, fail:22 start...
+
+
+Time:2017-01-31 14:50:59:481-Trace>>OnEntitySyncQueue execute count:1, success:0/total 175, fail:23 start...
+
+
+Time:2017-01-31 14:50:59:589-Trace>>OnEntitySyncQueue execute count:1, success:0/total 176, fail:24 start...
+
+
+Time:2017-01-31 14:51:05:061-Trace>>OnEntitySyncQueue execute count:1, success:0/total 182, fail:25 start...
+
+
+Time:2017-01-31 14:51:07:790-Trace>>OnEntitySyncQueue execute count:1, success:0/total 185, fail:26 start...
+
+

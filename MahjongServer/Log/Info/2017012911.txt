@@ -1,0 +1,94 @@
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+11:01:15 Server is starting...
+11:01:17 Start checking table schema, please wait.
+11:01:17 Check table schema successfully.
+11:01:17 script compiled successfully.
+11:01:17 CacheFactory listen has started...
+11:01:17 Socket service 192.168.3.6:9001 is started.
+11:01:17 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+11:05:20 Server is starting...
+11:05:21 Start checking table schema, please wait.
+11:05:21 Check table schema successfully.
+11:05:22 script compiled successfully.
+11:05:22 CacheFactory listen has started...
+11:05:22 Socket service 192.168.3.6:9001 is started.
+11:05:22 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+11:15:40 Clear expired cache end.
+11:25:40 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+11:36:02 Server is starting...
+11:36:04 Start checking table schema, please wait.
+11:36:04 Check table schema successfully.
+11:36:04 script compiled successfully.
+11:36:04 CacheFactory listen has started...
+11:36:04 Socket service 192.168.3.6:9001 is started.
+11:36:04 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+11:39:03 Server is starting...
+11:39:05 Start checking table schema, please wait.
+11:39:05 Check table schema successfully.
+11:39:05 script compiled successfully.
+11:39:05 CacheFactory listen has started...
+11:39:05 Socket service 192.168.3.6:9001 is started.
+11:39:05 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+11:49:20 Clear expired cache end.
+Update script file count:1.
+11:55:27 csharp script compile start...
+11:55:27 csharp script compiled successfully.
+Update script file count:1.
+11:55:34 csharp script compile start...
+11:55:35 csharp script compiled successfully.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+11:55:41 Server is starting...
+11:55:43 Start checking table schema, please wait.
+11:55:43 Check table schema successfully.
+11:55:43 script compiled successfully.
+11:55:43 CacheFactory listen has started...
+11:55:43 Socket service 192.168.3.6:9001 is started.
+11:55:43 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
