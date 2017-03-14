@@ -1,0 +1,216 @@
+Time:2017-03-05 13:05:16:191-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:18:818-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:21:219-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:24:500-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:24:615-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:24:725-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:24:830-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:24:938-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:25:053-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:25:160-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:25:269-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:25:377-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:25:490-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:25:601-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:25:708-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:26:470-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:26:582-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:27:349-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:34:345-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|8 faild object is null.
+
+
+Time:2017-03-05 13:05:40:005-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_8
+error:MahjongServer.Script.CsScript.Room.RoomCache_8
+
+
+Time:2017-03-05 13:42:49:565-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:51:956-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:54:256-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:57:532-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:57:647-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:57:751-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:57:862-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:57:975-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:58:083-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:58:191-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:58:303-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:58:410-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:58:518-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:58:625-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:58:740-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:59:505-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:42:59:615-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:43:00:379-Trace>>EntitySync queue key MahjongServer.Script.CsScript.Room.RoomCache_10000|1 faild object is null.
+
+
+Time:2017-03-05 13:43:38:176-Trace>>FindEntityFromRedis MahjongServer.Script.CsScript.Room.RoomCache keys:MahjongServer.Script.CsScript.Room.RoomCache_1
+error:MahjongServer.Script.CsScript.Room.RoomCache_1
+
+
+Time:2017-03-05 13:46:32:208-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:52
+Message:无法将类型“string”隐式转换为“int”
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+
+
+Time:2017-03-05 13:46:32:239-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2017-03-05 13:46:47:717-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:52
+Message:无法将类型“string”隐式转换为“int”
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:289
+Message:当前上下文中不存在名称“Sid”
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+
+
+Time:2017-03-05 13:46:47:723-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2017-03-05 13:47:17:302-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:52
+Message:无法将类型“string”隐式转换为“int”
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:289
+Message:当前上下文中不存在名称“Sid”
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+
+
+Time:2017-03-05 13:47:17:304-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2017-03-05 13:47:20:993-Compile assembly:DynamicScripts.CsScript error:
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:52
+Message:无法将类型“string”隐式转换为“int”
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Room\Room.cs, Line:290
+Message:无法将类型“int”隐式转换为“string”
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+
+
+Time:2017-03-05 13:47:21:003-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2017-03-05 13:59:32:162-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs, Line:31
+Message:当前上下文中不存在名称“id”
+
+
+Time:2017-03-05 13:59:32:164-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2017-03-05 13:59:51:161-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs, Line:49
+Message:“getId”方法没有任何重载采用 0 个参数
+
+
+Time:2017-03-05 13:59:51:164-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+
+Time:2017-03-05 13:59:56:844-Compile assembly:DynamicScripts.CsScript error:
+[Warning] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\MainClass.cs, Line:49
+Message:“ZyGames.Framework.Game.Contract.GameSession.EndAddress”已过时
+[Error] File:d:\work\VS2015 File\MahjongServer\MahjongServer\Script\CsScript\Action\Action2000.cs, Line:49
+Message:“getId”方法没有任何重载采用 1 个参数
+
+
+Time:2017-03-05 13:59:56:853-Trace>>DoWatcherChanged error:System.Exception: The csharp script compile error
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CompileCsharp()
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.InitCsharp()
+   在 ZyGames.Framework.Script.ScriptEngines.DoWatcherChanged(Object state)
+
+

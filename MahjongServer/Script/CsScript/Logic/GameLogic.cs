@@ -22,7 +22,7 @@ namespace MahjongServer.Script.CsScript.GameLogic
             if (room != null)
             {
                 Random rand = new Random(Guid.NewGuid().GetHashCode());
-                int r = rand.Next(0, 4);
+                int r = 0;//rand.Next(0, 4);
 
                 rand = new Random(Guid.NewGuid().GetHashCode());
                 int num = rand.Next(2, 12);

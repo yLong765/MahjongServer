@@ -16,7 +16,7 @@ namespace GameServer.CsScript.Action
     class Action3001 : BaseStruct
     {
         private int roomID;
-        private string[] sessions;
+        private string[] Names;
         private string roomName;
 
         public Action3001(HttpGet httpGet) : base(3001, httpGet)
@@ -27,12 +27,9 @@ namespace GameServer.CsScript.Action
         {
             for (int i = 0; i < 4; i++)
             {
-                Console.WriteLine(sessions[i]);
-                PushIntoStack(sessions[i]);
+                Console.WriteLine(Names[i]);
+                PushIntoStack(Names[i]);
             }
-
-            PushIntoStack(roomName);
- 
         }
 
         public override bool GetUrlElement()
@@ -43,8 +40,7 @@ namespace GameServer.CsScript.Action
 
         public override bool TakeAction()
         {
-            sessions = Room.getStringSessionsOfRoom(roomID);
-            roomName = Room.getName(roomID);
+            Names = Room.getNamesOfRoom(roomID);
             return true;
         }
     }

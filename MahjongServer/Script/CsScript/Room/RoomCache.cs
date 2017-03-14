@@ -112,13 +112,11 @@ namespace MahjongServer.Script.CsScript.Room
     [ProtoContract]
     public class playerData : EntityChangeEvent
     {
-
         [ProtoMember(1)]
         public string sessionid { get; set; }
 
         [ProtoMember(2)]
         public string Name { get; set; }
-
     }
 
     

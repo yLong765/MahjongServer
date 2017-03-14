@@ -15,8 +15,6 @@ namespace GameServer.CsScript.Action
     class Action2004 : BaseStruct
     {
         private int roomID;
-        private string playerName;
-        private int id;
         private int target;
         private int StartNum;
 
@@ -27,21 +25,18 @@ namespace GameServer.CsScript.Action
         public override bool GetUrlElement()
         {
             httpGet.GetInt("roomID", ref roomID);
-            httpGet.GetString("playerName", ref playerName);
 
             return true;
         }
 
         public override void BuildPacket()
         {
-            PushIntoStack(id);
             PushIntoStack(target);
             PushIntoStack(StartNum);
         }
 
         public override bool TakeAction()
         {
-            id = Room.getId(roomID, playerName);
             target = Room.getTarget(roomID);
             StartNum = Room.getStartName(roomID);
 

@@ -110,6 +110,7 @@
     <Compile Include="Script\CsScript\Action\Action2003.cs" />
     <Compile Include="Script\CsScript\Action\Action2004.cs" />
     <Compile Include="Script\CsScript\Action\Action2007.cs" />
+    <Compile Include="Script\CsScript\Action\Action2008.cs" />
     <Compile Include="Script\CsScript\Action\Action3000.cs" />
     <Compile Include="Script\CsScript\Action\Action3001.cs" />
     <Compile Include="Script\CsScript\Action\Action2005.cs" />

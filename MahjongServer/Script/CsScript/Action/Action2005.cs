@@ -13,8 +13,7 @@ namespace GameServer.CsScript.Action
     /// </summary>
     class Action2005 : BaseStruct
     {
-        private string userName;
-        private string passWord;
+        private string PlayerName;
 
         public Action2005(HttpGet httpGet) : base(2005, httpGet)
         {
@@ -22,22 +21,8 @@ namespace GameServer.CsScript.Action
 
         public override bool GetUrlElement()
         {
-            httpGet.GetString("UserName", ref userName);
-            httpGet.GetString("PassWord", ref passWord);
-
+            httpGet.GetString("PlayerName", ref PlayerName);
             return true;
-        }
-
-        public override void BuildPacket()
-        {
-            if (userName.Equals("yang") && passWord.Equals("yang"))
-            {
-                PushIntoStack(1);
-            }
-            else
-            {
-                PushIntoStack(1);
-            }
         }
 
         public override bool TakeAction()

@@ -1,0 +1,40 @@
+16:00:20 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:01:54 Server is starting...
+16:01:56 Start checking table schema, please wait.
+16:01:56 Check table schema successfully.
+16:01:56 script compiled successfully.
+16:01:56 CacheFactory listen has started...
+16:01:56 Socket service 39.80.168.143:9001 is started.
+16:01:56 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+16:12:00 Clear expired cache end.
+16:22:00 Clear expired cache end.
+16:32:00 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+16:37:48 Server is starting...
+16:37:50 Start checking table schema, please wait.
+16:37:50 Check table schema successfully.
+16:37:50 script compiled successfully.
+16:37:50 CacheFactory listen has started...
+16:37:51 Socket service 39.80.168.143:9001 is started.
+16:37:51 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+16:48:00 Clear expired cache end.
+16:58:00 Clear expired cache end.

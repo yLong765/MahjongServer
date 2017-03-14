@@ -1,0 +1,11 @@
+﻿D:\work\VS2015 File\MahjongServer\MahjongServer> "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /t:library /utf8output /R:"System.dll" /R:"System.Core.dll" /R:"System.Data.dll" /R:"System.Xml.dll" /R:"System.Xml.Linq.dll" /R:"Microsoft.CSharp.dll" /R:"System.Configuration.dll" /R:"System.Web.dll" /R:"D:\work\VS2015 File\MahjongServer\MahjongServer\NLog.dll" /R:"D:\work\VS2015 File\MahjongServer\MahjongServer\Newtonsoft.Json.dll" /R:"D:\work\VS2015 File\MahjongServer\MahjongServer\protobuf-net.dll" /R:"D:\work\VS2015 File\MahjongServer\MahjongServer\ServiceStack.Redis.dll" /R:"D:\work\VS2015 File\MahjongServer\MahjongServer\ZyGames.Framework.Common.dll" /R:"D:\work\VS2015 File\MahjongServer\MahjongServer\ZyGames.Framework.dll" /R:"D:\work\VS2015 File\MahjongServer\MahjongServer\ZyGames.Framework.Game.dll" /out:"D:\work\VS2015 File\MahjongServer\MahjongServer\temp\j4elir01.dll" /D:DEBUG /debug+ /optimize-  "D:\work\VS2015 File\MahjongServer\MahjongServer\Script\Model\GuestUser.cs" "D:\work\VS2015 File\MahjongServer\MahjongServer\Script\Model\Properties\AssemblyInfo.cs" "D:\work\VS2015 File\MahjongServer\MahjongServer\Script\Model\UserRanking.cs"
+
+
+Microsoft (R) Visual C# Compiler version 4.6.1586.0
+for C# 5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+
+d:\work\VS2015 File\MahjongServer\MahjongServer\Script\Model\GuestUser.cs(96,34): warning CS0672: 成员“GameServer.Model.GameUser.OnlineDate”将重写过时的成员“ZyGames.Framework.Game.Context.BaseUser.OnlineDate”。请向“GameServer.Model.GameUser.OnlineDate”中添加 Obsolete 特性。
+d:\work\VS2015 File\MahjongServer\MahjongServer\ZyGames.Framework.Game.dll: (与前一个警告相关的符号位置)

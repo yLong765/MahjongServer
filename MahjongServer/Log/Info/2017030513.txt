@@ -1,0 +1,55 @@
+13:07:42 Clear expired cache end.
+13:17:42 Clear expired cache end.
+13:27:42 Clear expired cache end.
+13:37:42 Clear expired cache end.
+///////////////////////////////////////////////////////////////////////////
+
+    //   ) )  //   ) )  //   / / /__  ___/   SCUT 6.7.9.10 (64 bit)
+   ((        //        //   / /    / /       Running in Win32NT platform
+     \\     //        //   / /    / /        Game: 0   Server: 0
+       ) ) //        //   / /    / /         
+((___ / / ((____/ / ((___/ /    / /                http://www.scutgame.com
+
+13:42:35 Server is starting...
+13:42:37 Start checking table schema, please wait.
+13:42:37 Check table schema successfully.
+13:42:37 script compiled successfully.
+13:42:38 CacheFactory listen has started...
+13:42:38 Socket service 39.80.172.209:9001 is started.
+13:42:38 Server has started successfully!
+# Server is listening...
+# Server exit command "Ctrl+C" or "Ctrl+Break".
+Update script file count:1.
+13:44:42 csharp script compile start...
+13:44:43 csharp script compiled successfully.
+Update script file count:1.
+13:45:15 csharp script compile start...
+13:45:15 csharp script compiled successfully.
+Update script file count:1.
+13:45:40 csharp script compile start...
+13:45:40 csharp script compiled successfully.
+Update script file count:1.
+13:46:31 csharp script compile start...
+Update script file count:1.
+13:46:47 csharp script compile start...
+Update script file count:1.
+13:47:16 csharp script compile start...
+Update script file count:1.
+13:47:20 csharp script compile start...
+Update script file count:1.
+13:47:26 csharp script compile start...
+13:47:26 csharp script compiled successfully.
+Update script file count:0.
+13:52:40 Clear expired cache end.
+Update script file count:1.
+13:59:18 csharp script compile start...
+13:59:18 csharp script compiled successfully.
+Update script file count:1.
+13:59:31 csharp script compile start...
+Update script file count:1.
+13:59:34 csharp script compile start...
+13:59:35 csharp script compiled successfully.
+Update script file count:1.
+13:59:50 csharp script compile start...
+Update script file count:1.
+13:59:56 csharp script compile start...

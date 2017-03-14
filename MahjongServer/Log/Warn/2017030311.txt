@@ -1,0 +1,42 @@
+Time:2017-03-03 11:33:06:737-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-03-03 11:33:38:050-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-03-03 11:33:53:581-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-03-03 11:34:06:582-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:2 start...
+
+
+Time:2017-03-03 11:34:34:768-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-03-03 11:34:34:832-Trace>>ClearTemp dir D:\work\VS2015 File\MahjongServer\MahjongServer\ScriptRuntimeDomain error:System.IO.IOException: 文件“ServiceStack.Redis.DLL”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 ZyGames.Framework.Script.ScriptCompiler.ClearTemp(String dirName)
+
+
+Time:2017-03-03 11:35:06:345-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-03-03 11:35:11:489-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-03-03 11:35:15:646-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:2 start...
+
+
+Time:2017-03-03 11:37:29:957-Trace>>OnEntitySyncQueue execute count:1, success:0/total 12, fail:3 start...
+
+
+Time:2017-03-03 11:37:33:567-Trace>>OnEntitySyncQueue execute count:1, success:0/total 13, fail:4 start...
+
+
+Time:2017-03-03 11:37:37:937-Trace>>OnEntitySyncQueue execute count:1, success:0/total 18, fail:5 start...
+
+
+Time:2017-03-03 11:37:38:051-Trace>>OnEntitySyncQueue execute count:1, success:0/total 22, fail:6 start...
+
+

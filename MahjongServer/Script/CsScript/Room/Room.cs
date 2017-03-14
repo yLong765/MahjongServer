@@ -27,7 +27,7 @@ namespace MahjongServer.Script.CsScript.Room
             if (room == null)
             {
                 room = new RoomCache(id, RoomType.FourPeople, name);
-                room.players.Insert(0, new playerData() { sessionid = sid,  Name = playerName });
+                room.players.Insert(0, new playerData() { sessionid = sid, Name = playerName });
 
                 if (cache.AddOrUpdate(room))
                 {
@@ -49,13 +49,13 @@ namespace MahjongServer.Script.CsScript.Room
                     {
                         if (room.players[i] == null)
                         {
-                            room.players.Insert(i, new playerData() { sessionid = sid, Name = playerName });
+                            room.players.Insert(i, new playerData() { sessionid = sid, Name = playerName});
                             room.size++;
                             break;
                         }
                     }
                 });
-                Console.WriteLine(sid + " Join Room " + id + " Ok");
+                Console.WriteLine(playerName + " Join Room " + id + " Ok");
                 return true;
             }
         }
@@ -167,11 +167,11 @@ namespace MahjongServer.Script.CsScript.Room
         }
 
         /// <summary>
-        /// 获取房间玩家sessionid
+        /// 获取房间玩家Name
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public static string[] getStringSessionsOfRoom(int id)
+        public static string[] getNamesOfRoom(int id)
         {
             var room = FindRoom(id);
 
@@ -182,7 +182,7 @@ namespace MahjongServer.Script.CsScript.Room
                 for (int i = 0; i < room.MaxPlayerLe; i++)
                 {
                     if (room.players[i] != null)
-                        str[i] = room.players[i].sessionid;
+                        str[i] = room.players[i].Name;
                 }
                 return str;
 
@@ -240,19 +240,13 @@ namespace MahjongServer.Script.CsScript.Room
         /// <param name="id"></param>
         /// <param name="session"></param>
         /// <returns></returns>
-        public static int getId(int id, string playerName)
+        public static int getId(int id)
         {
             var room = FindRoom(id);
 
             if (room != null)
             {
-                for (int i = 0; i < room.MaxPlayerLe; i++)
-                {
-                    if (playerName.Equals(room.players[i].Name))
-                    {
-                        return i;
-                    }
-                }
+                return room.size - 1;
             }
 
             return -1;
@@ -281,15 +275,6 @@ namespace MahjongServer.Script.CsScript.Room
             return -1;
         }
 
-        private static int playerBuildID = 0;
-
-        public static string buildName()
-        {
-            string Sid = "Player";
-            Sid += playerBuildID;
-            playerBuildID++;
-            return Sid;
-        }
 
     }
 }

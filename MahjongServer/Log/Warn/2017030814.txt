@@ -1,0 +1,36 @@
+Time:2017-03-08 14:33:27:410-Trace>>Db connection not found provider type, OraAspNetConString connectionString:
+
+
+Time:2017-03-08 14:33:40:963-Trace>>OnEntitySyncQueue execute count:1, success:0/total 1, fail:0 start...
+
+
+Time:2017-03-08 14:33:43:041-Trace>>OnEntitySyncQueue execute count:1, success:0/total 2, fail:1 start...
+
+
+Time:2017-03-08 14:33:45:011-Trace>>OnEntitySyncQueue execute count:1, success:0/total 8, fail:2 start...
+
+
+Time:2017-03-08 14:33:45:119-Trace>>OnEntitySyncQueue execute count:1, success:0/total 11, fail:3 start...
+
+
+Time:2017-03-08 14:33:47:199-Trace>>OnEntitySyncQueue execute count:1, success:0/total 31, fail:4 start...
+
+
+Time:2017-03-08 14:33:47:314-Trace>>OnEntitySyncQueue execute count:1, success:0/total 50, fail:5 start...
+
+
+Time:2017-03-08 14:33:47:536-Trace>>OnEntitySyncQueue execute count:1, success:0/total 63, fail:6 start...
+
+
+Time:2017-03-08 14:33:48:509-Trace>>OnEntitySyncQueue execute count:1, success:0/total 64, fail:7 start...
+
+
+Time:2017-03-08 14:33:52:981-Trace>>OnEntitySyncQueue execute count:1, success:0/total 73, fail:8 start...
+
+
+Time:2017-03-08 14:33:56:371-Trace>>OnEntitySyncQueue execute count:1, success:0/total 79, fail:9 start...
+
+
+Time:2017-03-08 14:34:08:398-Trace>>OnEntitySyncQueue execute count:1, success:0/total 88, fail:10 start...
+
+
