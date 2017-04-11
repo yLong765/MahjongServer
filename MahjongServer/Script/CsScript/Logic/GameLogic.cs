@@ -22,7 +22,7 @@ namespace MahjongServer.Script.CsScript.GameLogic
             if (room != null)
             {
                 Random rand = new Random(Guid.NewGuid().GetHashCode());
-                int r = 0;//rand.Next(0, 4);
+                int r = rand.Next(0, 4);
 
                 rand = new Random(Guid.NewGuid().GetHashCode());
                 int num = rand.Next(2, 12);
@@ -138,6 +138,10 @@ namespace MahjongServer.Script.CsScript.GameLogic
             {
                 room.ModifyLocked(() =>
                 {
+                    if (level == 5)
+                    {
+
+                    }
                     room.Level[playerid] = level;
                 });
             }
@@ -279,6 +283,33 @@ namespace MahjongServer.Script.CsScript.GameLogic
             if (room != null)
             {
                 InitGame(id, 136);
+            }
+        }
+
+        public static void setWinName(int id, int winID)
+        {
+            var room = Room.FindRoom(id);
+
+            if (room != null)
+            {
+                room.ModifyLocked(() =>
+                {
+                    room.WinName = room.players[winID].Name;
+                });
+            }
+        }
+
+        public static string getWinName(int id)
+        {
+            var room = Room.FindRoom(id);
+
+            if (room != null)
+            {
+                return room.WinName;
+            }
+            else
+            {
+                return null;
             }
         }
 

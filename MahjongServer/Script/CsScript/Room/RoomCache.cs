@@ -107,6 +107,9 @@ namespace MahjongServer.Script.CsScript.Room
         [EntityField]
         public int StartNum { get; set; }
 
+        [ProtoMember(14)]
+        [EntityField]
+        public string WinName { get; set; }
     }
 
     [ProtoContract]

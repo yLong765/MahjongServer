@@ -36,16 +36,40 @@ namespace GameServer.CsScript.Action
         {
             Console.WriteLine("playerId : " + playerId);
 
-            GameLogic.SetLevel(roomID, playerId, level);
-            GameLogic.SetNum(roomID, playerId, num);
-
-            int playerID = -1;
-            if ((playerID = GameLogic.GetPlayerId(roomID)) != -1)
+            if (level != 5)
             {
-                Console.WriteLine("Target : " + playerID);
-                Radio(roomID, playerID);
+                GameLogic.SetLevel(roomID, playerId, level);
+                GameLogic.SetNum(roomID, playerId, num);
+
+                int playerID = -1;
+                if ((playerID = GameLogic.GetPlayerId(roomID)) != -1)
+                {
+                    Console.WriteLine("Target : " + playerID);
+                    Radio(roomID, playerID);
+                }
             }
+            else
+            {
+                GameLogic.setWinName(roomID, playerId);
+                Radio(roomID);
+            }
+
+            
             return true;
+        }
+
+        private void Radio(int id)
+        {
+            List<GameSession> sessionList = Room.getSessionsOfRoom(id);
+            var parameters = new Parameters();
+            parameters["num"] = num;
+            parameters["level"] = 5;
+            parameters["playerID"] = playerId;
+
+            ActionFactory.SendAction(sessionList, 3002, parameters, (session, asyncResult) =>
+            {
+                Console.WriteLine(string.Format("Action 3002 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail"));
+            }, httpGet.OpCode, 0);
         }
 
         private void Radio(int id, int playerID)

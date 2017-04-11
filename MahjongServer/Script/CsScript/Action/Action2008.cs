@@ -1,4 +1,5 @@
-﻿using MahjongServer.Script.CsScript.Room;
+﻿using MahjongServer.Script.CsScript.GameLogic;
+using MahjongServer.Script.CsScript.Room;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace GameServer.CsScript.Action
     class Action2008 : BaseStruct
     {
         private int roomID;
-        private string playerName;
+        private string winName;
 
         public Action2008(HttpGet httpGet) : base(2008, httpGet)
         {
@@ -23,28 +24,18 @@ namespace GameServer.CsScript.Action
         public override bool GetUrlElement()
         {
             httpGet.GetInt("roomID", ref roomID);
-            httpGet.GetString("playerName", ref playerName);
-
             return true;
+        }
+
+        public override void BuildPacket()
+        {
+            PushIntoStack(winName);
         }
 
         public override bool TakeAction()
         {
-            Radio(roomID, playerName);
+            winName = GameLogic.getWinName(roomID);
             return true;
-        }
-
-        private void Radio(int id, string playerName)
-        {
-            var sessionList = Room.getSessionsOfRoom(id);
-
-            var parameters = new Parameters();
-            parameters["playerName"] = playerName;
-
-            ActionFactory.SendAction(sessionList, 3003, parameters, (session, asyncResult) =>
-            {
-                Console.WriteLine(string.Format("Action 3003 send result:{0}", asyncResult.Result == ResultCode.Success ? "ok" : "fail"));
-            }, httpGet.OpCode, 0);
         }
     }
 }
